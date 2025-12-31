@@ -1,313 +1,162 @@
 {
-  "version": "1.0",
-  "source": "local_kb",
+  "version": "2.0",
+  "source": "twin_health_diabetes_kb",
   "last_updated": "2025-12-31",
-  "description": "Curated knowledge base for the Twin Health Chatbot. Entries are short, actionable Q/A pairs focused on twin pregnancy, postpartum and newborn care, nutrition, warning signs, and resources.",
+  "description": "Twin Health knowledge base focused on Type 2 Diabetes reversal, metabolic health, Whole Body Digital Twin™, lifestyle guidance, safety, and FAQs.",
   "entries": [
     {
-      "id": "kb000",
+      "id": "kb100",
       "question": "What is Twin Health?",
-      "answer": "Twin Health is a precision health platform that helps reverse chronic metabolic diseases like Type 2 Diabetes naturally. We use a Whole Body Digital Twin™ - a sophisticated AI model that creates a digital replica of your metabolism to provide personalized recommendations for diet, exercise, and lifestyle.",
-      "tags": [
-        "general",
-        "about",
-        "twin_health"
-      ],
-      "source": "platform_info",
+      "answer": "Twin Health is a precision health platform that helps reverse Type 2 Diabetes and improve metabolic health naturally. It uses AI-powered Whole Body Digital Twin™ technology to provide personalized nutrition, exercise, sleep, and lifestyle recommendations.",
+      "tags": ["twin health", "about", "company", "overview"],
+      "source": "twin_health_platform",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb001",
-      "question": "What are the most common risks in a twin pregnancy?",
-      "answer": "Twin pregnancies have higher risk of preterm birth, gestational hypertension/preeclampsia, gestational diabetes, and fetal growth restriction. Regular prenatal visits, more frequent ultrasound monitoring, and early recognition of warning signs help manage these risks.",
-      "tags": [
-        "pregnancy",
-        "risks",
-        "twins"
-      ],
-      "source": "clinical_guidelines",
+      "id": "kb101",
+      "question": "How does Twin Health work?",
+      "answer": "Twin Health creates a digital replica of your metabolism using clinical data, biomarkers, and daily inputs. The AI model predicts how your body responds to food, activity, and habits, enabling personalized guidance to improve blood sugar control and reverse diabetes.",
+      "tags": ["how it works", "digital twin", "ai", "metabolism"],
+      "source": "twin_health_platform",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb002",
-      "question": "How often should prenatal visits occur for twin pregnancies?",
-      "answer": "Prenatal visit frequency is typically higher for twin pregnancies: every 2–4 weeks during the first and second trimesters, moving to every 1–2 weeks in the third trimester. Your provider will tailor visits based on health, growth, and complications.",
-      "tags": [
-        "pregnancy",
-        "care_schedule"
-      ],
-      "source": "ob_guidance",
+      "id": "kb102",
+      "question": "What is Whole Body Digital Twin?",
+      "answer": "The Whole Body Digital Twin™ is an AI-based virtual model of your metabolism. It simulates how your body reacts to different foods, exercises, sleep patterns, and stress, helping optimize decisions to improve metabolic health.",
+      "tags": ["digital twin", "whole body digital twin", "ai model"],
+      "source": "twin_health_technology",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb003",
-      "question": "What warning signs require immediate medical attention in pregnancy?",
-      "answer": "Seek immediate care for severe abdominal pain or cramping, heavy vaginal bleeding, sudden severe headache or vision changes, decreased fetal movement, high fever, or shortness of breath. These can indicate preterm labor, placental issues, preeclampsia, or other emergencies.",
-      "tags": [
-        "pregnancy",
-        "warning_signs",
-        "emergency"
-      ],
-      "source": "emergency_guidelines",
+      "id": "kb103",
+      "question": "Can Twin Health reverse Type 2 Diabetes?",
+      "answer": "Yes. Twin Health focuses on diabetes reversal by improving insulin sensitivity and metabolic health through personalized lifestyle interventions. Many members experience sustained reductions in HbA1c and medication dependency under medical supervision.",
+      "tags": ["diabetes reversal", "type 2 diabetes", "cure diabetes"],
+      "source": "clinical_outcomes",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb004",
-      "question": "What nutritional recommendations are important for carrying twins?",
-      "answer": "Caloric and nutrient needs are higher with twins. Aim for ~300–600 extra kcal/day depending on trimester and individual factors. Prioritize protein, iron, calcium, folate, vitamin D, and adequate fluids. Take prenatal vitamins as recommended and follow individualized diet guidance from your provider or dietitian.",
-      "tags": [
-        "nutrition",
-        "pregnancy",
-        "twins"
-      ],
+      "id": "kb104",
+      "question": "How long does diabetes reversal take?",
+      "answer": "The timeline varies by individual. Many members see meaningful improvements in blood sugar levels within 3–6 months, while sustained reversal typically requires consistent adherence over a longer period.",
+      "tags": ["timeline", "how long", "reversal duration"],
+      "source": "clinical_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb105",
+      "question": "Can I reduce or stop diabetes medications with Twin Health?",
+      "answer": "Medication adjustments are done gradually and safely under physician supervision. As metabolic health improves, many members reduce or eliminate diabetes medications, including insulin, as clinically appropriate.",
+      "tags": ["medication reduction", "insulin", "stop medicine"],
+      "source": "medical_supervision",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb106",
+      "question": "Does Twin Health track HbA1c?",
+      "answer": "Yes. HbA1c and other metabolic markers are regularly monitored to assess progress, guide recommendations, and ensure safety throughout the program.",
+      "tags": ["hba1c", "blood sugar", "tracking"],
+      "source": "program_features",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb107",
+      "question": "What diet does Twin Health recommend?",
+      "answer": "Twin Health provides personalized nutrition guidance rather than a one-size-fits-all diet. Recommendations are based on how your body responds to foods, focusing on blood sugar stability, nutrient density, and metabolic balance.",
+      "tags": ["diet", "nutrition", "food plan"],
       "source": "nutrition_guidance",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb005",
-      "question": "How likely is preterm birth with twins and what can reduce the risk?",
-      "answer": "Preterm birth is more common with twins (significantly higher than singletons). Risk-reduction strategies include close monitoring, treating infections, managing cervical shortening when detected, avoiding smoking, and following provider advice on activity and interval between pregnancies.",
-      "tags": [
-        "pregnancy",
-        "preterm"
-      ],
-      "source": "perinatal_research",
+      "id": "kb108",
+      "question": "Is exercise mandatory in Twin Health?",
+      "answer": "Physical activity is encouraged but personalized. The program adapts exercise recommendations based on fitness level, age, health conditions, and metabolic response.",
+      "tags": ["exercise", "physical activity", "fitness"],
+      "source": "lifestyle_guidance",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb006",
-      "question": "What are common delivery options for twins?",
-      "answer": "Delivery depends on presentations and gestational age. Options include vaginal delivery (often possible if the first twin is head-down and other conditions are met) or cesarean delivery if presentations/conditions require it. Delivery planning should be individualized with the obstetrician.",
-      "tags": [
-        "delivery",
-        "pregnancy"
-      ],
-      "source": "ob_guidance",
+      "id": "kb109",
+      "question": "Who is eligible for Twin Health?",
+      "answer": "Twin Health is suitable for adults with Type 2 Diabetes, prediabetes, obesity, or metabolic syndrome. Eligibility is confirmed through an initial health assessment.",
+      "tags": ["eligibility", "who can join", "prediabetes"],
+      "source": "program_eligibility",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb007",
-      "question": "How can parents prepare for breastfeeding two babies?",
-      "answer": "Strategies include early lactation support, learning tandem nursing positions, establishing a feeding schedule, pumping to build a supply, and arranging practical help. Consult a lactation consultant for personalized techniques and troubleshooting.",
-      "tags": [
-        "postpartum",
-        "breastfeeding",
-        "twins"
-      ],
-      "source": "lactation_resources",
+      "id": "kb110",
+      "question": "Is Twin Health safe?",
+      "answer": "Yes. Twin Health combines AI guidance with clinician oversight. Health metrics are continuously monitored to ensure safety, and all interventions are evidence-based.",
+      "tags": ["safety", "is it safe", "clinical"],
+      "source": "safety_guidelines",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb008",
-      "question": "What postpartum symptoms are normal and which need medical review?",
-      "answer": "Normal: mild uterine cramping, breast engorgement, mood fluctuations. Seek medical review for heavy bleeding soaking a pad hourly, fever >100.4°F (38°C), severe abdominal pain, shortness of breath, or symptoms of postpartum depression (persistent low mood, difficulty bonding, thoughts of harming self or baby).",
-      "tags": [
-        "postpartum",
-        "warning_signs"
-      ],
-      "source": "postpartum_guidelines",
+      "id": "kb111",
+      "question": "Is Twin Health clinically proven?",
+      "answer": "Twin Health outcomes are supported by clinical trials and peer-reviewed research showing significant improvements in HbA1c, weight, and metabolic markers.",
+      "tags": ["clinical proof", "research", "evidence"],
+      "source": "clinical_trials",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb009",
-      "question": "How to manage fatigue while caring for newborn twins?",
-      "answer": "Prioritize sleep when possible (nap when babies sleep), accept help from family/friends, share night duties with a partner, simplify tasks, and ask for community or professional support. If extreme fatigue or thoughts of harming yourself occur, seek urgent help.",
-      "tags": [
-        "postpartum",
-        "caregiving",
-        "mental_health"
-      ],
-      "source": "care_advice",
+      "id": "kb112",
+      "question": "Does Twin Health help with weight loss?",
+      "answer": "Yes. By improving metabolic efficiency and insulin sensitivity, many members experience sustainable weight loss as a secondary benefit.",
+      "tags": ["weight loss", "obesity", "fat loss"],
+      "source": "metabolic_outcomes",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb010",
-      "question": "What immunizations should newborns receive?",
-      "answer": "Follow local immunization schedules. Typically, newborns receive Hepatitis B at birth. Further vaccines are scheduled over the first months of life — discuss with your pediatrician and follow the national schedule.",
-      "tags": [
-        "newborn",
-        "vaccination"
-      ],
-      "source": "pediatric_guidelines",
+      "id": "kb113",
+      "question": "Does Twin Health use doctors?",
+      "answer": "Yes. The program includes medical professionals who oversee care, adjust medications, and ensure clinical safety.",
+      "tags": ["doctors", "medical team", "physician"],
+      "source": "care_team",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb011",
-      "question": "When should I call the pediatrician for a newborn twin?",
-      "answer": "Contact the pediatrician for fever in the newborn, poor feeding, difficulty breathing, persistent vomiting, lethargy, yellowing of the skin/eyes (jaundice), or any sudden concerning changes. For routine concerns, schedule an appointment or message the clinic.",
-      "tags": [
-        "newborn",
-        "pediatric"
-      ],
-      "source": "pediatric_guidelines",
+      "id": "kb114",
+      "question": "What can this chatbot help with?",
+      "answer": "This chatbot provides information about Twin Health, diabetes reversal, Whole Body Digital Twin technology, program benefits, and general guidance. It does not replace medical consultation.",
+      "tags": ["chatbot", "help", "support"],
+      "source": "chatbot_info",
+      "last_updated": "2025-12-31"
+    },
+    { 
+      "id": "kb115",
+      "question": "What are the benefits of the Twin Health program?",
+      "answer": "The Twin Health program helps reverse Type 2 Diabetes naturally, reduce HbA1c levels, lower or eliminate diabetes medications under medical supervision, promote sustainable weight loss, and improve overall metabolic health using personalized AI-driven guidance.",
+      "tags": ["benefits", "advantages", "why twin health", "program benefits"],
+      "source": "twin_health_program",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb012",
-      "question": "How can parents prevent SIDS and promote safe sleep?",
-      "answer": "Place babies on their backs to sleep, use a firm sleep surface free of loose bedding, avoid bed-sharing, keep the sleep area smoke-free, and follow safe-sleep guidance from your pediatric provider.",
-      "tags": [
-        "newborn",
-        "safe_sleep"
-      ],
-      "source": "safe_sleep_guidelines",
+      "id": "kb116",
+      "question": "What are the working hours of Twin Health?",
+      "answer": "Twin Health typically operates during standard business hours. Program access, app usage, and AI guidance are available continuously, while clinical and support interactions follow scheduled working hours depending on your region.",
+      "tags": ["working hours", "timings", "support hours", "availability"],
+      "source": "twin_health_support",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb013",
-      "question": "Are there special considerations for monochorionic twins?",
-      "answer": "Monochorionic twins (sharing a placenta) have higher risks such as twin-to-twin transfusion syndrome (TTTS). They require more frequent monitoring and possible interventions; coordinate care with a maternal-fetal medicine specialist.",
-      "tags": [
-        "pregnancy",
-        "twins",
-        "specialty_care"
-      ],
-      "source": "maternal_fetal_guidelines",
+      "id": "kb117",
+      "question": "Where is Twin Health located?",
+      "answer": "Twin Health is a global digital health company with operations in the United States and India. Services are delivered primarily through a digital platform, allowing members to access the program remotely regardless of location.",
+      "tags": ["location", "office location", "where is twin health", "address", "address of twin health"],
+      "source": "company_information",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb014",
-      "question": "How should medications be handled during twin pregnancy?",
-      "answer": "Always discuss medications with your prenatal provider before starting or stopping. Some medications are safe, others pose risks; providers balance maternal benefit versus fetal risk and adjust dosing or suggest alternatives as needed.",
-      "tags": [
-        "pregnancy",
-        "medication"
-      ],
-      "source": "pharmacology_guidance",
+      "id": "kb118",
+      "question": "Where is the Twin Health office located in Chennai?",
+      "answer": "The Twin Health Chennai office is located at Millenia Business Park – Phase 2, Symbyont Smart Spaces, Campus 5, 9th Floor, 143, Dr. MGR Road, Perungudi, Kandanchavadi, Chennai, Tamil Nadu – 600096, India.",
+      "tags": ["chennai office", "twin health chennai", "office location chennai", "address", "location"],
+      "source": "company_office_information",
       "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb015",
-      "question": "What local resources can help families with newborn twins?",
-      "answer": "Resources include postpartum doulas, lactation consultants, home visiting programs, twin support groups, community health centers, and social services. Ask your clinic for referrals and check local hospital or community directories.",
-      "tags": [
-        "resources",
-        "support"
-      ],
-      "source": "community_resources",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb016",
-      "question": "What are the most common risks in a twin pregnancy?",
-      "answer": "Twin pregnancies have higher risk of preterm birth, gestational hypertension/preeclampsia, gestational diabetes, and fetal growth restriction. Regular prenatal visits, more frequent ultrasound monitoring, and early recognition of warning signs help manage these risks.",
-      "tags": ["pregnancy","risks","twins"],
-      "source": "clinical_guidelines",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb017",
-      "question": "How often should prenatal visits occur for twin pregnancies?",
-      "answer": "Prenatal visit frequency is typically higher for twin pregnancies: every 2–4 weeks during the first and second trimesters, moving to every 1–2 weeks in the third trimester. Your provider will tailor visits based on health, growth, and complications.",
-      "tags": ["pregnancy","care_schedule"],
-      "source": "ob_guidance",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb018",
-      "question": "What warning signs require immediate medical attention in pregnancy?",
-      "answer": "Seek immediate care for severe abdominal pain or cramping, heavy vaginal bleeding, sudden severe headache or vision changes, decreased fetal movement, high fever, or shortness of breath. These can indicate preterm labor, placental issues, preeclampsia, or other emergencies.",
-      "tags": ["pregnancy","warning_signs","emergency"],
-      "source": "emergency_guidelines",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb019",
-      "question": "What nutritional recommendations are important for carrying twins?",
-      "answer": "Caloric and nutrient needs are higher with twins. Aim for ~300–600 extra kcal/day depending on trimester and individual factors. Prioritize protein, iron, calcium, folate, vitamin D, and adequate fluids. Take prenatal vitamins as recommended and follow individualized diet guidance from your provider or dietitian.",
-      "tags": ["nutrition","pregnancy","twins"],
-      "source": "nutrition_guidance",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb020",
-      "question": "How likely is preterm birth with twins and what can reduce the risk?",
-      "answer": "Preterm birth is more common with twins (significantly higher than singletons). Risk-reduction strategies include close monitoring, treating infections, managing cervical shortening when detected, avoiding smoking, and following provider advice on activity and interval between pregnancies.",
-      "tags": ["pregnancy","preterm"],
-      "source": "perinatal_research",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb021",
-      "question": "What are common delivery options for twins?",
-      "answer": "Delivery depends on presentations and gestational age. Options include vaginal delivery (often possible if the first twin is head-down and other conditions are met) or cesarean delivery if presentations/conditions require it. Delivery planning should be individualized with the obstetrician.",
-      "tags": ["delivery","pregnancy"],
-      "source": "ob_guidance",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb022",
-      "question": "How can parents prepare for breastfeeding two babies?",
-      "answer": "Strategies include early lactation support, learning tandem nursing positions, establishing a feeding schedule, pumping to build a supply, and arranging practical help. Consult a lactation consultant for personalized techniques and troubleshooting.",
-      "tags": ["postpartum","breastfeeding","twins"],
-      "source": "lactation_resources",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb023",
-      "question": "What postpartum symptoms are normal and which need medical review?",
-      "answer": "Normal: mild uterine cramping, breast engorgement, mood fluctuations. Seek medical review for heavy bleeding soaking a pad hourly, fever >100.4°F (38°C), severe abdominal pain, shortness of breath, or symptoms of postpartum depression (persistent low mood, difficulty bonding, thoughts of harming self or baby).",
-      "tags": ["postpartum","warning_signs"],
-      "source": "postpartum_guidelines",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb024",
-      "question": "How to manage fatigue while caring for newborn twins?",
-      "answer": "Prioritize sleep when possible (nap when babies sleep), accept help from family/friends, share night duties with a partner, simplify tasks, and ask for community or professional support. If extreme fatigue or thoughts of harming yourself occur, seek urgent help.",
-      "tags": ["postpartum","caregiving","mental_health"],
-      "source": "care_advice",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb025",
-      "question": "What immunizations should newborns receive?",
-      "answer": "Follow local immunization schedules. Typically, newborns receive Hepatitis B at birth. Further vaccines are scheduled over the first months of life — discuss with your pediatrician and follow the national schedule.",
-      "tags": ["newborn","vaccination"],
-      "source": "pediatric_guidelines",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb026",
-      "question": "When should I call the pediatrician for a newborn twin?",
-      "answer": "Contact the pediatrician for fever in the newborn, poor feeding, difficulty breathing, persistent vomiting, lethargy, yellowing of the skin/eyes (jaundice), or any sudden concerning changes. For routine concerns, schedule an appointment or message the clinic.",
-      "tags": ["newborn","pediatric"],
-      "source": "pediatric_guidelines",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb027",
-      "question": "How can parents prevent SIDS and promote safe sleep?",
-      "answer": "Place babies on their backs to sleep, use a firm sleep surface free of loose bedding, avoid bed-sharing, keep the sleep area smoke-free, and follow safe-sleep guidance from your pediatric provider.",
-      "tags": ["newborn","safe_sleep"],
-      "source": "safe_sleep_guidelines",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb028",
-      "question": "Are there special considerations for monochorionic twins?",
-      "answer": "Monochorionic twins (sharing a placenta) have higher risks such as twin-to-twin transfusion syndrome (TTTS). They require more frequent monitoring and possible interventions; coordinate care with a maternal-fetal medicine specialist.",
-      "tags": ["pregnancy","twins","specialty_care"],
-      "source": "maternal_fetal_guidelines",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb029",
-      "question": "How should medications be handled during twin pregnancy?",
-      "answer": "Always discuss medications with your prenatal provider before starting or stopping. Some medications are safe, others pose risks; providers balance maternal benefit versus fetal risk and adjust dosing or suggest alternatives as needed.",
-      "tags": ["pregnancy","medication"],
-      "source": "pharmacology_guidance",
-      "last_updated": "2025-12-31"
-    },
-    {
-      "id": "kb030",
-      "question": "What local resources can help families with newborn twins?",
-      "answer": "Resources include postpartum doulas, lactation consultants, home visiting programs, twin support groups, community health centers, and social services. Ask your clinic for referrals and check local hospital or community directories.",
-      "tags": ["resources","support"],
-      "source": "community_resources",
-      "last_updated": "2025-12-31"
-    }
-  ],
-  "usage_notes": "Use this file as a static FAQ knowledge base. The chatbot should match user queries to `question`/`tags` and return `answer` with source and last_updated fields. Keep entries concise and list trusted sources for clinical recommendations. Update `last_updated` when modifying entries.",
+}
+ ],
+  "usage_notes": "Match user queries using question text and tags. Prefer Twin Health diabetes-related intent. Provide answers with source and last_updated metadata. Avoid giving medical advice beyond program description.",
   "license": "internal_use_only"
 }
