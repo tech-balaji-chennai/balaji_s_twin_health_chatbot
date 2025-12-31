@@ -1,0 +1,313 @@
+{
+  "version": "1.0",
+  "source": "local_kb",
+  "last_updated": "2025-12-31",
+  "description": "Curated knowledge base for the Twin Health Chatbot. Entries are short, actionable Q/A pairs focused on twin pregnancy, postpartum and newborn care, nutrition, warning signs, and resources.",
+  "entries": [
+    {
+      "id": "kb000",
+      "question": "What is Twin Health?",
+      "answer": "Twin Health is a precision health platform that helps reverse chronic metabolic diseases like Type 2 Diabetes naturally. We use a Whole Body Digital Twin™ - a sophisticated AI model that creates a digital replica of your metabolism to provide personalized recommendations for diet, exercise, and lifestyle.",
+      "tags": [
+        "general",
+        "about",
+        "twin_health"
+      ],
+      "source": "platform_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb001",
+      "question": "What are the most common risks in a twin pregnancy?",
+      "answer": "Twin pregnancies have higher risk of preterm birth, gestational hypertension/preeclampsia, gestational diabetes, and fetal growth restriction. Regular prenatal visits, more frequent ultrasound monitoring, and early recognition of warning signs help manage these risks.",
+      "tags": [
+        "pregnancy",
+        "risks",
+        "twins"
+      ],
+      "source": "clinical_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb002",
+      "question": "How often should prenatal visits occur for twin pregnancies?",
+      "answer": "Prenatal visit frequency is typically higher for twin pregnancies: every 2–4 weeks during the first and second trimesters, moving to every 1–2 weeks in the third trimester. Your provider will tailor visits based on health, growth, and complications.",
+      "tags": [
+        "pregnancy",
+        "care_schedule"
+      ],
+      "source": "ob_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb003",
+      "question": "What warning signs require immediate medical attention in pregnancy?",
+      "answer": "Seek immediate care for severe abdominal pain or cramping, heavy vaginal bleeding, sudden severe headache or vision changes, decreased fetal movement, high fever, or shortness of breath. These can indicate preterm labor, placental issues, preeclampsia, or other emergencies.",
+      "tags": [
+        "pregnancy",
+        "warning_signs",
+        "emergency"
+      ],
+      "source": "emergency_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb004",
+      "question": "What nutritional recommendations are important for carrying twins?",
+      "answer": "Caloric and nutrient needs are higher with twins. Aim for ~300–600 extra kcal/day depending on trimester and individual factors. Prioritize protein, iron, calcium, folate, vitamin D, and adequate fluids. Take prenatal vitamins as recommended and follow individualized diet guidance from your provider or dietitian.",
+      "tags": [
+        "nutrition",
+        "pregnancy",
+        "twins"
+      ],
+      "source": "nutrition_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb005",
+      "question": "How likely is preterm birth with twins and what can reduce the risk?",
+      "answer": "Preterm birth is more common with twins (significantly higher than singletons). Risk-reduction strategies include close monitoring, treating infections, managing cervical shortening when detected, avoiding smoking, and following provider advice on activity and interval between pregnancies.",
+      "tags": [
+        "pregnancy",
+        "preterm"
+      ],
+      "source": "perinatal_research",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb006",
+      "question": "What are common delivery options for twins?",
+      "answer": "Delivery depends on presentations and gestational age. Options include vaginal delivery (often possible if the first twin is head-down and other conditions are met) or cesarean delivery if presentations/conditions require it. Delivery planning should be individualized with the obstetrician.",
+      "tags": [
+        "delivery",
+        "pregnancy"
+      ],
+      "source": "ob_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb007",
+      "question": "How can parents prepare for breastfeeding two babies?",
+      "answer": "Strategies include early lactation support, learning tandem nursing positions, establishing a feeding schedule, pumping to build a supply, and arranging practical help. Consult a lactation consultant for personalized techniques and troubleshooting.",
+      "tags": [
+        "postpartum",
+        "breastfeeding",
+        "twins"
+      ],
+      "source": "lactation_resources",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb008",
+      "question": "What postpartum symptoms are normal and which need medical review?",
+      "answer": "Normal: mild uterine cramping, breast engorgement, mood fluctuations. Seek medical review for heavy bleeding soaking a pad hourly, fever >100.4°F (38°C), severe abdominal pain, shortness of breath, or symptoms of postpartum depression (persistent low mood, difficulty bonding, thoughts of harming self or baby).",
+      "tags": [
+        "postpartum",
+        "warning_signs"
+      ],
+      "source": "postpartum_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb009",
+      "question": "How to manage fatigue while caring for newborn twins?",
+      "answer": "Prioritize sleep when possible (nap when babies sleep), accept help from family/friends, share night duties with a partner, simplify tasks, and ask for community or professional support. If extreme fatigue or thoughts of harming yourself occur, seek urgent help.",
+      "tags": [
+        "postpartum",
+        "caregiving",
+        "mental_health"
+      ],
+      "source": "care_advice",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb010",
+      "question": "What immunizations should newborns receive?",
+      "answer": "Follow local immunization schedules. Typically, newborns receive Hepatitis B at birth. Further vaccines are scheduled over the first months of life — discuss with your pediatrician and follow the national schedule.",
+      "tags": [
+        "newborn",
+        "vaccination"
+      ],
+      "source": "pediatric_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb011",
+      "question": "When should I call the pediatrician for a newborn twin?",
+      "answer": "Contact the pediatrician for fever in the newborn, poor feeding, difficulty breathing, persistent vomiting, lethargy, yellowing of the skin/eyes (jaundice), or any sudden concerning changes. For routine concerns, schedule an appointment or message the clinic.",
+      "tags": [
+        "newborn",
+        "pediatric"
+      ],
+      "source": "pediatric_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb012",
+      "question": "How can parents prevent SIDS and promote safe sleep?",
+      "answer": "Place babies on their backs to sleep, use a firm sleep surface free of loose bedding, avoid bed-sharing, keep the sleep area smoke-free, and follow safe-sleep guidance from your pediatric provider.",
+      "tags": [
+        "newborn",
+        "safe_sleep"
+      ],
+      "source": "safe_sleep_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb013",
+      "question": "Are there special considerations for monochorionic twins?",
+      "answer": "Monochorionic twins (sharing a placenta) have higher risks such as twin-to-twin transfusion syndrome (TTTS). They require more frequent monitoring and possible interventions; coordinate care with a maternal-fetal medicine specialist.",
+      "tags": [
+        "pregnancy",
+        "twins",
+        "specialty_care"
+      ],
+      "source": "maternal_fetal_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb014",
+      "question": "How should medications be handled during twin pregnancy?",
+      "answer": "Always discuss medications with your prenatal provider before starting or stopping. Some medications are safe, others pose risks; providers balance maternal benefit versus fetal risk and adjust dosing or suggest alternatives as needed.",
+      "tags": [
+        "pregnancy",
+        "medication"
+      ],
+      "source": "pharmacology_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb015",
+      "question": "What local resources can help families with newborn twins?",
+      "answer": "Resources include postpartum doulas, lactation consultants, home visiting programs, twin support groups, community health centers, and social services. Ask your clinic for referrals and check local hospital or community directories.",
+      "tags": [
+        "resources",
+        "support"
+      ],
+      "source": "community_resources",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb016",
+      "question": "What are the most common risks in a twin pregnancy?",
+      "answer": "Twin pregnancies have higher risk of preterm birth, gestational hypertension/preeclampsia, gestational diabetes, and fetal growth restriction. Regular prenatal visits, more frequent ultrasound monitoring, and early recognition of warning signs help manage these risks.",
+      "tags": ["pregnancy","risks","twins"],
+      "source": "clinical_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb017",
+      "question": "How often should prenatal visits occur for twin pregnancies?",
+      "answer": "Prenatal visit frequency is typically higher for twin pregnancies: every 2–4 weeks during the first and second trimesters, moving to every 1–2 weeks in the third trimester. Your provider will tailor visits based on health, growth, and complications.",
+      "tags": ["pregnancy","care_schedule"],
+      "source": "ob_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb018",
+      "question": "What warning signs require immediate medical attention in pregnancy?",
+      "answer": "Seek immediate care for severe abdominal pain or cramping, heavy vaginal bleeding, sudden severe headache or vision changes, decreased fetal movement, high fever, or shortness of breath. These can indicate preterm labor, placental issues, preeclampsia, or other emergencies.",
+      "tags": ["pregnancy","warning_signs","emergency"],
+      "source": "emergency_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb019",
+      "question": "What nutritional recommendations are important for carrying twins?",
+      "answer": "Caloric and nutrient needs are higher with twins. Aim for ~300–600 extra kcal/day depending on trimester and individual factors. Prioritize protein, iron, calcium, folate, vitamin D, and adequate fluids. Take prenatal vitamins as recommended and follow individualized diet guidance from your provider or dietitian.",
+      "tags": ["nutrition","pregnancy","twins"],
+      "source": "nutrition_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb020",
+      "question": "How likely is preterm birth with twins and what can reduce the risk?",
+      "answer": "Preterm birth is more common with twins (significantly higher than singletons). Risk-reduction strategies include close monitoring, treating infections, managing cervical shortening when detected, avoiding smoking, and following provider advice on activity and interval between pregnancies.",
+      "tags": ["pregnancy","preterm"],
+      "source": "perinatal_research",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb021",
+      "question": "What are common delivery options for twins?",
+      "answer": "Delivery depends on presentations and gestational age. Options include vaginal delivery (often possible if the first twin is head-down and other conditions are met) or cesarean delivery if presentations/conditions require it. Delivery planning should be individualized with the obstetrician.",
+      "tags": ["delivery","pregnancy"],
+      "source": "ob_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb022",
+      "question": "How can parents prepare for breastfeeding two babies?",
+      "answer": "Strategies include early lactation support, learning tandem nursing positions, establishing a feeding schedule, pumping to build a supply, and arranging practical help. Consult a lactation consultant for personalized techniques and troubleshooting.",
+      "tags": ["postpartum","breastfeeding","twins"],
+      "source": "lactation_resources",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb023",
+      "question": "What postpartum symptoms are normal and which need medical review?",
+      "answer": "Normal: mild uterine cramping, breast engorgement, mood fluctuations. Seek medical review for heavy bleeding soaking a pad hourly, fever >100.4°F (38°C), severe abdominal pain, shortness of breath, or symptoms of postpartum depression (persistent low mood, difficulty bonding, thoughts of harming self or baby).",
+      "tags": ["postpartum","warning_signs"],
+      "source": "postpartum_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb024",
+      "question": "How to manage fatigue while caring for newborn twins?",
+      "answer": "Prioritize sleep when possible (nap when babies sleep), accept help from family/friends, share night duties with a partner, simplify tasks, and ask for community or professional support. If extreme fatigue or thoughts of harming yourself occur, seek urgent help.",
+      "tags": ["postpartum","caregiving","mental_health"],
+      "source": "care_advice",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb025",
+      "question": "What immunizations should newborns receive?",
+      "answer": "Follow local immunization schedules. Typically, newborns receive Hepatitis B at birth. Further vaccines are scheduled over the first months of life — discuss with your pediatrician and follow the national schedule.",
+      "tags": ["newborn","vaccination"],
+      "source": "pediatric_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb026",
+      "question": "When should I call the pediatrician for a newborn twin?",
+      "answer": "Contact the pediatrician for fever in the newborn, poor feeding, difficulty breathing, persistent vomiting, lethargy, yellowing of the skin/eyes (jaundice), or any sudden concerning changes. For routine concerns, schedule an appointment or message the clinic.",
+      "tags": ["newborn","pediatric"],
+      "source": "pediatric_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb027",
+      "question": "How can parents prevent SIDS and promote safe sleep?",
+      "answer": "Place babies on their backs to sleep, use a firm sleep surface free of loose bedding, avoid bed-sharing, keep the sleep area smoke-free, and follow safe-sleep guidance from your pediatric provider.",
+      "tags": ["newborn","safe_sleep"],
+      "source": "safe_sleep_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb028",
+      "question": "Are there special considerations for monochorionic twins?",
+      "answer": "Monochorionic twins (sharing a placenta) have higher risks such as twin-to-twin transfusion syndrome (TTTS). They require more frequent monitoring and possible interventions; coordinate care with a maternal-fetal medicine specialist.",
+      "tags": ["pregnancy","twins","specialty_care"],
+      "source": "maternal_fetal_guidelines",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb029",
+      "question": "How should medications be handled during twin pregnancy?",
+      "answer": "Always discuss medications with your prenatal provider before starting or stopping. Some medications are safe, others pose risks; providers balance maternal benefit versus fetal risk and adjust dosing or suggest alternatives as needed.",
+      "tags": ["pregnancy","medication"],
+      "source": "pharmacology_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb030",
+      "question": "What local resources can help families with newborn twins?",
+      "answer": "Resources include postpartum doulas, lactation consultants, home visiting programs, twin support groups, community health centers, and social services. Ask your clinic for referrals and check local hospital or community directories.",
+      "tags": ["resources","support"],
+      "source": "community_resources",
+      "last_updated": "2025-12-31"
+    }
+  ],
+  "usage_notes": "Use this file as a static FAQ knowledge base. The chatbot should match user queries to `question`/`tags` and return `answer` with source and last_updated fields. Keep entries concise and list trusted sources for clinical recommendations. Update `last_updated` when modifying entries.",
+  "license": "internal_use_only"
+}
