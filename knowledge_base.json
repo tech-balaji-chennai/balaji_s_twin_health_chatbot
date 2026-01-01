@@ -155,8 +155,48 @@
       "tags": ["chennai office", "twin health chennai", "office location chennai", "address", "location"],
       "source": "company_office_information",
       "last_updated": "2025-12-31"
-}
- ],
+    },
+    {
+    "id": "kb119",
+    "question": "How to join the Twin Health program?",
+    "answer": "To join the Twin Health program, you typically begin by visiting the Twin Health website or app and submitting your details to check eligibility. After that, you may be contacted by the Twin Health care team for onboarding, which includes a health assessment, digital twin setup, and enrollment steps. Enrollment may also be available through employer-sponsored plans or health benefits providers.",
+    "tags": ["join program", "how to enroll", "enrollment", "registration"],
+    "source": "twin_health_program",
+    "last_updated": "2025-12-31"
+    },
+    {
+    "id": "kb120",
+    "question": "What are the subscription plans of the Twin Health program?",
+    "answer": "Twin Health offers personalized program plans that may include monthly, quarterly, or annual subscription options. Specific plans and pricing can vary by region and health needs; detailed pricing information is provided when you enquire through the Twin Health enrollment team or official website.",
+    "tags": ["subscription", "plans", "pricing", "cost"],
+    "source": "twin_health_program",
+    "last_updated": "2025-12-31"
+    },
+    {
+    "id": "kb121",
+    "question": "Why should I join Twin Health?",
+    "answer": "You might consider joining Twin Health if you want personalized metabolic health guidance, support from a care team, and a structured program to improve blood sugar control, reduce medication dependency, and work toward Type 2 Diabetes reversal using AI-guided recommendations and continuous monitoring.",
+    "tags": ["why join", "reasons", "benefits", "advantages"],
+    "source": "twin_health_program",
+    "last_updated": "2025-12-31"
+    },
+    {
+    "id": "kb122",
+    "question": "Will you suggest any food that will improve my metabolism?",
+    "answer": "I am not a nutritionist and not a health coach, so I cannot provide specific dietary suggestions. For personalized nutrition guidance, please consult the Twin Health program resources or a qualified nutrition professional.",
+    "tags": ["food suggestion", "diet advice", "nutrition", "metabolism"],
+    "source": "chatbot_guidance",
+    "last_updated": "2025-12-31"
+    },
+    {
+    "id": "kb123",
+    "question": "Can I take this medicine to solve my health issues?",
+    "answer": "I am not a nutritionist and not a health coach, so I cannot provide medical advice or recommendations about medications. Always consult your licensed healthcare provider before starting, stopping, or changing any medication.",
+    "tags": ["medicine advice", "medications", "medical guidance"],
+    "source": "chatbot_guidance",
+    "last_updated": "2025-12-31"
+    }
+],
   "usage_notes": "Match user queries using question text and tags. Prefer Twin Health diabetes-related intent. Provide answers with source and last_updated metadata. Avoid giving medical advice beyond program description.",
   "license": "internal_use_only"
 }

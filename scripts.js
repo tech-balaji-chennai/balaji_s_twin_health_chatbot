@@ -82,9 +82,38 @@ function addMessage(message, isUser) {
 
     messageDiv.appendChild(contentDiv);
 
+    // Add action buttons
+    const actionButtons = document.createElement('div');
+    actionButtons.className = 'action-buttons';
+
+    if (isUser) {
+        // User messages get: Copy, Edit, Share, Download
+        actionButtons.innerHTML = `
+            <button onclick="copyText(this)" title="Copy message">📋</button>
+            <button onclick="editText(this)" title="Edit message">✏️</button>
+            <button onclick="shareText(this)" title="Share message">📤</button>
+            <button onclick="downloadText(this)" title="Download message">💾</button>
+        `;
+    } else {
+        // Bot messages get: Copy, Regenerate, Share, Download
+        actionButtons.innerHTML = `
+            <button onclick="copyText(this)" title="Copy response">📋</button>
+            <button onclick="regenerateText(this)" title="Regenerate response">🔄</button>
+            <button onclick="shareText(this)" title="Share response">📤</button>
+            <button onclick="downloadText(this)" title="Download response">💾</button>
+        `;
+    }
+
+    messageDiv.appendChild(actionButtons);
+
     // Insert before typing indicator
     chatMessages.insertBefore(messageDiv, typingIndicator);
     chatMessages.scrollTop = chatMessages.scrollHeight;
+    messageDiv.setAttribute("tabindex", "0");
+    messageDiv.setAttribute(
+        "aria-label",
+        isUser ? "User message" : "Bot response"
+    );
 }
 
 function showTypingIndicator() {
@@ -97,7 +126,7 @@ function hideTypingIndicator() {
 }
 
 function defaultResponse() {
-    return "I appreciate your question, but this topic is currently outside my knowledge scope. I specialize in information about Twin Health, twin pregnancy, postpartum care, and newborn guidance. Would you like resources or to rephrase the question?";
+    return "I appreciate your question, but this topic is currently outside my knowledge scope. I specialize in information about Twin Health, diabetes reversal, metabolic health, and our Whole Body Digital Twin™ technology. Would you like to ask me something about Twin Health specifically?";
 }
 
 function sendMessage() {
@@ -128,8 +157,9 @@ function sendSuggestion(suggestion) {
 }
 
 // Enter key to send
-userInput.addEventListener('keypress', function(e) {
-    if (e.key === 'Enter') {
+userInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
         sendMessage();
     }
 });
@@ -139,3 +169,141 @@ window.addEventListener('load', async () => {
     await loadKnowledgeBase();
     userInput.focus();
 });
+
+// Action button functions
+function getMessageText(btn) {
+    const messageDiv = btn.closest('.message');
+    const contentDiv = messageDiv.querySelector('.message-content');
+    // Get text content, replacing <br> with newlines and removing suggestion buttons
+    let clone = contentDiv.cloneNode(true);
+    // Remove suggestions div if present
+    const suggestions = clone.querySelector('.suggestions');
+    if (suggestions) {
+        suggestions.remove();
+    }
+    return clone.innerHTML.replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '');
+}
+
+function getUserQuery(btn) {
+    // Get the user message that triggered this bot response
+    const botMessageDiv = btn.closest('.message.bot');
+    let prevElement = botMessageDiv.previousElementSibling;
+    
+    // Skip typing indicator if present
+    while (prevElement && prevElement.classList.contains('typing-indicator')) {
+        prevElement = prevElement.previousElementSibling;
+    }
+    
+    // Find the previous user message
+    while (prevElement && !prevElement.classList.contains('user')) {
+        prevElement = prevElement.previousElementSibling;
+    }
+    
+    if (prevElement && prevElement.classList.contains('user')) {
+        const contentDiv = prevElement.querySelector('.message-content');
+        return contentDiv.innerHTML.replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '');
+    }
+    
+    return null;
+}
+
+function copyText(btn) {
+    const text = getMessageText(btn);
+    navigator.clipboard.writeText(text).then(() => {
+        // Visual feedback
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '✓ Copied!';
+        btn.style.background = '#4caf50';
+        btn.style.color = 'white';
+        btn.style.borderColor = '#4caf50';
+        
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.style.background = '';
+            btn.style.color = '';
+            btn.style.borderColor = '';
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy:', err);
+        alert('Failed to copy text to clipboard');
+    });
+}
+
+function downloadText(btn) {
+    const text = getMessageText(btn);
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+    const filename = `twin-health-chat-${timestamp}.txt`;
+    
+    const blob = new Blob([text], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    
+    // Visual feedback
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '✓ Downloaded!';
+    btn.style.background = '#4caf50';
+    btn.style.color = 'white';
+    btn.style.borderColor = '#4caf50';
+    
+    setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.style.background = '';
+        btn.style.color = '';
+        btn.style.borderColor = '';
+    }, 2000);
+}
+
+function shareText(btn) {
+    const text = getMessageText(btn);
+    
+    if (navigator.share) {
+        navigator.share({
+            title: 'Twin Health Chat',
+            text: text
+        }).then(() => {
+            console.log('Successfully shared');
+        }).catch(err => {
+            console.error('Error sharing:', err);
+        });
+    } else {
+        // Fallback: copy to clipboard
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Sharing not supported on this browser. Text copied to clipboard instead!');
+        }).catch(err => {
+            alert('Sharing not supported on this browser');
+        });
+    }
+}
+
+function editText(btn) {
+    const text = getMessageText(btn);
+    userInput.value = text;
+    userInput.focus();
+    
+    // Scroll to input
+    userInput.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function regenerateText(btn) {
+    const userQuery = getUserQuery(btn);
+    if (userQuery) {
+        userInput.value = userQuery;
+        sendMessage();
+    } else {
+        alert('Could not find the original question to regenerate response.');
+    }
+}
+
+function scrollChat(direction) {
+    const scrollAmount = 300;
+    chatMessages.scrollBy({
+        top: direction === 'up' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+    });
+}
