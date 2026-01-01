@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twin Health Chatbot</title>
+
+    <!-- SEO & Lighthouse -->
+    <meta name="description" content="Twin Health AI chatbot for diabetes reversal and metabolic health guidance">
+    <meta name="theme-color" content="#667eea">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="Twin Health - Official Logo.png">
+    <link rel="shortcut icon" href="Twin Health - Official Logo.png">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -17,14 +29,35 @@
                  style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-right: 15px;">
             <div class="header-text">
                 <h1>🩺 Twin Health Assistant</h1>
-                <p>Your health AI assistant for improving your health...</p>
+                <p>Your AI assistant for improving your metabolic health...</p>
+            </div>
+
+            <!-- Dark mode toggle -->
+            <button id="themeToggle" onclick="toggleDarkMode()">🌙</button>
+        </div>
+
+        <!-- ================= CHAT TABS ================= -->
+        <div class="chat-tabs">
+            <div id="tabsContainer" class="tabs-container">
+                <!-- Chat tabs injected by JS -->
+            </div>
+
+            <!-- Right-side icons -->
+            <div class="tab-actions">
+                <button id="newTabBtn" class="tab-control-btn" title="New Chat">➕</button>
+                 <button id="renameTabBtn" class="tab-control-btn" title="Rename Current Chat">✏️</button>
+                <button id="deleteTabBtn" class="tab-control-btn delete-btn" title="Delete Chat">🗑</button>
+
+                <!-- <select id="export-chat" class="export-chat-btn" title="Export Conversation History. Select format">
+                     <option value="" disabled selected hidden>💾</option>
+                    <option value="json">JSON</option>
+                    <option value="txt">TXT</option>
+                    <option value="csv">CSV</option>
+                    <option value="doc">DOC</option>
+                    <option value="pdf">PDF</option>
+                </select> -->
             </div>
         </div>
-        
-        <!-- Scroll Up Button -->
-        <button class="scroll-btn scroll-up" onclick="scrollChat('up')" aria-label="Scroll up" title="Scroll up">
-            ▲
-        </button>
         
         <div class="chat-messages" id="chatMessages" role="log" aria-live="polite">
             <div class="message bot">
@@ -35,7 +68,7 @@
                         <button class="suggestion-btn" onclick="sendSuggestion('How does it work?')">How does it work?</button>
                         <button class="suggestion-btn" onclick="sendSuggestion('What are the benefits?')">Benefits of Twin Health</button>
                         <button class="suggestion-btn" onclick="sendSuggestion('Who is eligible?')">Who is eligible?</button>
-                        <button class="suggestion-btn" onclick="sendSuggestion('Twin Health office in Chennai')">Where is Twin Health</button>
+                        <button class="suggestion-btn" onclick="sendSuggestion('Twin Health India')">Where is Twin Health</button>
                         <button class="suggestion-btn" onclick="sendSuggestion('How to join Twin Health program?')">How to join Twin Health program?</button>
                     </div>
                 </div>
@@ -53,12 +86,15 @@
                 <span></span>
                 <span></span>
             </div>
-        </div>
         
-        <!-- Scroll Down Button -->
-        <button class="scroll-btn scroll-down" onclick="scrollChat('down')" aria-label="Scroll down" title="Scroll down">
-            ▼
-        </button>
+        <div class="scroll-nav">
+            <!-- Scroll Up Button -->
+            <button class="scroll-btn scroll-up" onclick="scrollChat('up')" aria-label="Scroll up" title="Scroll up">▲</button>
+            <!-- Scroll Down Button -->
+            <button class="scroll-btn scroll-down" onclick="scrollChat('down')" aria-label="Scroll down" title="Scroll down">▼</button>
+        </div>
+
+        </div>
         
         <div class="chat-input-container">
             <input

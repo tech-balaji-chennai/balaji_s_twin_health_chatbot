@@ -1,202 +1,2288 @@
 {
   "version": "2.0",
+  "min_supported_version": "2.0",
   "source": "twin_health_diabetes_kb",
-  "last_updated": "2025-12-31",
-  "description": "Twin Health knowledge base focused on Type 2 Diabetes reversal, metabolic health, Whole Body Digital Twin™, lifestyle guidance, safety, and FAQs.",
+  "last_updated": "2026-01-02",
+  "description": "Twin Health knowledge base for Type 2 Diabetes, metabolic health, Whole Body Digital Twin™, ICAP operations, lifestyle guidance, and FAQs.",
   "entries": [
     {
-      "id": "kb100",
+      "id": "kb001",
       "question": "What is Twin Health?",
       "answer": "Twin Health is a precision health platform that helps reverse Type 2 Diabetes and improve metabolic health naturally. It uses AI-powered Whole Body Digital Twin™ technology to provide personalized nutrition, exercise, sleep, and lifestyle recommendations.",
       "tags": ["twin health", "about", "company", "overview"],
+      "category": "program",
       "source": "twin_health_platform",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb101",
+      "id": "kb002",
       "question": "How does Twin Health work?",
       "answer": "Twin Health creates a digital replica of your metabolism using clinical data, biomarkers, and daily inputs. The AI model predicts how your body responds to food, activity, and habits, enabling personalized guidance to improve blood sugar control and reverse diabetes.",
       "tags": ["how it works", "digital twin", "ai", "metabolism"],
+      "category": "technology",
       "source": "twin_health_platform",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb102",
+      "id": "kb003",
       "question": "What is Whole Body Digital Twin?",
       "answer": "The Whole Body Digital Twin™ is an AI-based virtual model of your metabolism. It simulates how your body reacts to different foods, exercises, sleep patterns, and stress, helping optimize decisions to improve metabolic health.",
       "tags": ["digital twin", "whole body digital twin", "ai model"],
+      "category": "technology",
       "source": "twin_health_technology",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb103",
+      "id": "kb004",
       "question": "Can Twin Health reverse Type 2 Diabetes?",
       "answer": "Yes. Twin Health focuses on diabetes reversal by improving insulin sensitivity and metabolic health through personalized lifestyle interventions. Many members experience sustained reductions in HbA1c and medication dependency under medical supervision.",
       "tags": ["diabetes reversal", "type 2 diabetes", "cure diabetes"],
+      "category": "program",
       "source": "clinical_outcomes",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb104",
+      "id": "kb005",
       "question": "How long does diabetes reversal take?",
       "answer": "The timeline varies by individual. Many members see meaningful improvements in blood sugar levels within 3–6 months, while sustained reversal typically requires consistent adherence over a longer period.",
       "tags": ["timeline", "how long", "reversal duration"],
+      "category": "program",
       "source": "clinical_guidance",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb105",
+      "id": "kb006",
       "question": "Can I reduce or stop diabetes medications with Twin Health?",
       "answer": "Medication adjustments are done gradually and safely under physician supervision. As metabolic health improves, many members reduce or eliminate diabetes medications, including insulin, as clinically appropriate.",
       "tags": ["medication reduction", "insulin", "stop medicine"],
+      "category": "program",
       "source": "medical_supervision",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb106",
+      "id": "kb007",
       "question": "Does Twin Health track HbA1c?",
       "answer": "Yes. HbA1c and other metabolic markers are regularly monitored to assess progress, guide recommendations, and ensure safety throughout the program.",
       "tags": ["hba1c", "blood sugar", "tracking"],
+      "category": "program",
       "source": "program_features",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb107",
+      "id": "kb008",
       "question": "What diet does Twin Health recommend?",
       "answer": "Twin Health provides personalized nutrition guidance rather than a one-size-fits-all diet. Recommendations are based on how your body responds to foods, focusing on blood sugar stability, nutrient density, and metabolic balance.",
       "tags": ["diet", "nutrition", "food plan"],
+      "category": "program",
       "source": "nutrition_guidance",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb108",
+      "id": "kb009",
       "question": "Is exercise mandatory in Twin Health?",
       "answer": "Physical activity is encouraged but personalized. The program adapts exercise recommendations based on fitness level, age, health conditions, and metabolic response.",
       "tags": ["exercise", "physical activity", "fitness"],
+      "category": "program",
       "source": "lifestyle_guidance",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb109",
+      "id": "kb010",
       "question": "Who is eligible for Twin Health?",
       "answer": "Twin Health is suitable for adults with Type 2 Diabetes, prediabetes, obesity, or metabolic syndrome. Eligibility is confirmed through an initial health assessment.",
       "tags": ["eligibility", "who can join", "prediabetes"],
+      "category": "program",
       "source": "program_eligibility",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb110",
+      "id": "kb011",
       "question": "Is Twin Health safe?",
       "answer": "Yes. Twin Health combines AI guidance with clinician oversight. Health metrics are continuously monitored to ensure safety, and all interventions are evidence-based.",
       "tags": ["safety", "is it safe", "clinical"],
+      "category": "program",
       "source": "safety_guidelines",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb111",
+      "id": "kb012",
       "question": "Is Twin Health clinically proven?",
       "answer": "Twin Health outcomes are supported by clinical trials and peer-reviewed research showing significant improvements in HbA1c, weight, and metabolic markers.",
       "tags": ["clinical proof", "research", "evidence"],
+      "category": "program",
       "source": "clinical_trials",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb112",
+      "id": "kb013",
       "question": "Does Twin Health help with weight loss?",
       "answer": "Yes. By improving metabolic efficiency and insulin sensitivity, many members experience sustainable weight loss as a secondary benefit.",
       "tags": ["weight loss", "obesity", "fat loss"],
+      "category": "program",
       "source": "metabolic_outcomes",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb113",
+      "id": "kb014",
       "question": "Does Twin Health use doctors?",
       "answer": "Yes. The program includes medical professionals who oversee care, adjust medications, and ensure clinical safety.",
       "tags": ["doctors", "medical team", "physician"],
+      "category": "program",
       "source": "care_team",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb114",
+      "id": "kb015",
       "question": "What can this chatbot help with?",
       "answer": "This chatbot provides information about Twin Health, diabetes reversal, Whole Body Digital Twin technology, program benefits, and general guidance. It does not replace medical consultation.",
       "tags": ["chatbot", "help", "support"],
+      "category": "program",
       "source": "chatbot_info",
       "last_updated": "2025-12-31"
     },
-    { 
-      "id": "kb115",
+    {
+      "id": "kb016",
       "question": "What are the benefits of the Twin Health program?",
       "answer": "The Twin Health program helps reverse Type 2 Diabetes naturally, reduce HbA1c levels, lower or eliminate diabetes medications under medical supervision, promote sustainable weight loss, and improve overall metabolic health using personalized AI-driven guidance.",
       "tags": ["benefits", "advantages", "why twin health", "program benefits"],
+      "category": "program",
       "source": "twin_health_program",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb116",
+      "id": "kb017",
       "question": "What are the working hours of Twin Health?",
       "answer": "Twin Health typically operates during standard business hours. Program access, app usage, and AI guidance are available continuously, while clinical and support interactions follow scheduled working hours depending on your region.",
       "tags": ["working hours", "timings", "support hours", "availability"],
+      "category": "program",
       "source": "twin_health_support",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb117",
+      "id": "kb018",
       "question": "Where is Twin Health located?",
       "answer": "Twin Health is a global digital health company with operations in the United States and India. Services are delivered primarily through a digital platform, allowing members to access the program remotely regardless of location.",
-      "tags": ["location", "office location", "where is twin health", "address", "address of twin health"],
+      "tags": ["location", "office location", "where is twin health", "address"],
+      "category": "program",
       "source": "company_information",
       "last_updated": "2025-12-31"
     },
     {
-      "id": "kb118",
+      "id": "kb019",
       "question": "Where is the Twin Health office located in Chennai?",
       "answer": "The Twin Health Chennai office is located at Millenia Business Park – Phase 2, Symbyont Smart Spaces, Campus 5, 9th Floor, 143, Dr. MGR Road, Perungudi, Kandanchavadi, Chennai, Tamil Nadu – 600096, India.",
       "tags": ["chennai office", "twin health chennai", "office location chennai", "address", "location"],
+      "category": "program",
       "source": "company_office_information",
       "last_updated": "2025-12-31"
     },
     {
-    "id": "kb119",
-    "question": "How to join the Twin Health program?",
-    "answer": "To join the Twin Health program, you typically begin by visiting the Twin Health website or app and submitting your details to check eligibility. After that, you may be contacted by the Twin Health care team for onboarding, which includes a health assessment, digital twin setup, and enrollment steps. Enrollment may also be available through employer-sponsored plans or health benefits providers.",
-    "tags": ["join program", "how to enroll", "enrollment", "registration"],
-    "source": "twin_health_program",
-    "last_updated": "2025-12-31"
+      "id": "kb020",
+      "question": "How to join the Twin Health program?",
+      "answer": "To join the Twin Health program, you typically begin by visiting the Twin Health website or app and submitting your details to check eligibility. After that, you may be contacted by the Twin Health care team for onboarding, which includes a health assessment, digital twin setup, and enrollment steps. Enrollment may also be available through employer-sponsored plans or health benefits providers.",
+      "tags": ["join program", "how to enroll", "enrollment", "registration"],
+      "category": "program",
+      "source": "twin_health_program",
+      "last_updated": "2025-12-31"
     },
     {
-    "id": "kb120",
-    "question": "What are the subscription plans of the Twin Health program?",
-    "answer": "Twin Health offers personalized program plans that may include monthly, quarterly, or annual subscription options. Specific plans and pricing can vary by region and health needs; detailed pricing information is provided when you enquire through the Twin Health enrollment team or official website.",
-    "tags": ["subscription", "plans", "pricing", "cost"],
-    "source": "twin_health_program",
-    "last_updated": "2025-12-31"
+      "id": "kb021",
+      "question": "What are the subscription plans of the Twin Health program?",
+      "answer": "Twin Health offers personalized program plans that may include monthly, quarterly, or annual subscription options. Specific plans and pricing can vary by region and health needs; detailed pricing information is provided when you enquire through the Twin Health enrollment team or official website.",
+      "tags": ["subscription", "plans", "pricing", "cost"],
+      "category": "subscription",
+      "source": "twin_health_program",
+      "last_updated": "2025-12-31"
     },
     {
-    "id": "kb121",
-    "question": "Why should I join Twin Health?",
-    "answer": "You might consider joining Twin Health if you want personalized metabolic health guidance, support from a care team, and a structured program to improve blood sugar control, reduce medication dependency, and work toward Type 2 Diabetes reversal using AI-guided recommendations and continuous monitoring.",
-    "tags": ["why join", "reasons", "benefits", "advantages"],
-    "source": "twin_health_program",
-    "last_updated": "2025-12-31"
+      "id": "kb022",
+      "question": "Why should I join Twin Health?",
+      "answer": "You might consider joining Twin Health if you want personalized metabolic health guidance, support from a care team, and a structured program to improve blood sugar control, reduce medication dependency, and work toward Type 2 Diabetes reversal using AI-guided recommendations and continuous monitoring.",
+      "tags": ["why join", "reasons", "benefits", "advantages"],
+      "category": "program",
+      "source": "twin_health_program",
+      "last_updated": "2025-12-31"
     },
     {
-    "id": "kb122",
-    "question": "Will you suggest any food that will improve my metabolism?",
-    "answer": "I am not a nutritionist and not a health coach, so I cannot provide specific dietary suggestions. For personalized nutrition guidance, please consult the Twin Health program resources or a qualified nutrition professional.",
-    "tags": ["food suggestion", "diet advice", "nutrition", "metabolism"],
-    "source": "chatbot_guidance",
-    "last_updated": "2025-12-31"
+      "id": "kb023",
+      "question": "Will you suggest any food that will improve my metabolism?",
+      "answer": "I am not a nutritionist and not a health coach, so I cannot provide specific dietary suggestions. For personalized nutrition guidance, please consult the Twin Health program resources or a qualified nutrition professional.",
+      "tags": ["food suggestion", "diet advice", "nutrition", "metabolism"],
+      "category": "program",
+      "source": "chatbot_guidance",
+      "last_updated": "2025-12-31"
     },
     {
-    "id": "kb123",
-    "question": "Can I take this medicine to solve my health issues?",
-    "answer": "I am not a nutritionist and not a health coach, so I cannot provide medical advice or recommendations about medications. Always consult your licensed healthcare provider before starting, stopping, or changing any medication.",
-    "tags": ["medicine advice", "medications", "medical guidance"],
-    "source": "chatbot_guidance",
-    "last_updated": "2025-12-31"
+      "id": "kb024",
+      "question": "Can I take this medicine to solve my health issues?",
+      "answer": "I am not a nutritionist and not a health coach, so I cannot provide medical advice or recommendations about medications. Always consult your licensed healthcare provider before starting, stopping, or changing any medication.",
+      "tags": ["medicine advice", "medications", "medical guidance"],
+      "category": "program",
+      "source": "chatbot_guidance",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb025",
+      "question": "What is ICAP in Twin Health?",
+      "answer": "ICAP (India Clinic Application) is an internal portal used by Twin Health India teams to manage members from enrollment to ongoing monitoring, connecting multiple operational, clinical, and support teams.",
+      "tags": ["icap", "portal", "india", "operations"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb026",
+      "question": "Which teams use ICAP?",
+      "answer": "Onboarding, Billing, Coordinator, Clinical Operations, and Coaching teams use ICAP to manage member lifecycle, treatment plans, and health monitoring.",
+      "tags": ["icap", "teams", "operations"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb027",
+      "question": "How are members enrolled in Twin Health using ICAP?",
+      "answer": "Leads Team enrolls members via DX, Doctor, and B2B channels. Billing team confirms payments, while Onboarding POC sets up profiles in ICAP for member tracking.",
+      "tags": ["icap", "enrollment", "billing", "onboarding"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb028",
+      "question": "How does ICAP track patient onboarding?",
+      "answer": "The Patient Onboarding section tracks patient name, ID, billing status, welcome calls, scheduling, health profile setup, and service activation.",
+      "tags": ["icap", "onboarding", "tracking", "patient"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb029",
+      "question": "What does the Logistics Team do in ICAP?",
+      "answer": "The Logistics Team delivers sensors and IoT devices such as CGM patches and weighing scales for members, coordinating with onboarding and lab teams.",
+      "tags": ["icap", "logistics", "devices", "delivery"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb030",
+      "question": "How are lab tests managed in ICAP?",
+      "answer": "The Lab Team conducts blood tests and coordinates with onboarding and clinical operations teams. Results are ingested into ICAP to track member health.",
+      "tags": ["icap", "lab", "tests", "blood tests"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb031",
+      "question": "What is the Investigation Section in ICAP?",
+      "answer": "Investigation Section documents member health information such as vitals, symptoms, health history, lifestyle, occupation, hereditary issues, and attachments.",
+      "tags": ["icap", "investigation", "clinical", "records"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb032",
+      "question": "How does the Clinical Operations Team use ICAP?",
+      "answer": "They manage Patients Section to view medication, activity plans, attachments, schedule doctor consultations, and track member concerns via tickets.",
+      "tags": ["icap", "clinical operations", "patients", "treatment"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb033",
+      "question": "What is the Treatment Section in ICAP?",
+      "answer": "Doctors prescribe treatment plans, and coaches use this to guide members. Nutrition, activity, and lifestyle plans are tracked here.",
+      "tags": ["icap", "treatment", "plan", "coaching"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb034",
+      "question": "How is the Nutrition Journey tracked in ICAP?",
+      "answer": "Coaches track members’ food intake, sleep patterns, and lifestyle behaviors to monitor adherence and metabolic health progress.",
+      "tags": ["icap", "nutrition", "coaching", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb035",
+      "question": "What is the purpose of the Nutrition Plan Section?",
+      "answer": "It provides AI-driven meal, sleep, and lifestyle recommendations, helping members plan daily routines effectively and improve metabolic health scores.",
+      "tags": ["icap", "nutrition", "plan", "AI"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb036",
+      "question": "What does the Dashboard Section in ICAP show?",
+      "answer": "It provides coaches a real-time overview of each member's health status, treatment progress, and key metrics for monitoring and planning.",
+      "tags": ["icap", "dashboard", "overview", "coaching"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb037",
+      "question": "What is shown in the Summary Section of ICAP?",
+      "answer": "The Summary Section consolidates the member’s entire treatment journey, allowing coaches and clinical teams to monitor outcomes and plan long-term care.",
+      "tags": ["icap", "summary", "report", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb038",
+      "question": "Can ICAP be used for billing management?",
+      "answer": "Yes. The Billing Team can view and manage invoices, track payments, and monitor billing status for each member.",
+      "tags": ["icap", "billing", "payment", "finance"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb039",
+      "question": "How does the POC team help in ICAP?",
+      "answer": "The POC team manages onboarding, schedules tests, coordinates device delivery, and ensures members complete profile setup and activation.",
+      "tags": ["icap", "POC", "onboarding", "coordination"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb040",
+      "question": "What devices are delivered via ICAP?",
+      "answer": "Devices such as CGM patches, weighing scales, and other IoT-enabled health monitoring tools are delivered and tracked through ICAP.",
+      "tags": ["icap", "devices", "CGM", "IoT"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb041",
+      "question": "How is health data collected in ICAP?",
+      "answer": "Health data is collected from lab tests, device sensors, and member self-reports, and stored in ICAP for analysis and personalized guidance.",
+      "tags": ["icap", "data", "collection", "health data"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb042",
+      "question": "How does ICAP help coaches?",
+      "answer": "Coaches use ICAP to monitor member progress, plan nutrition and activity routines, and provide personalized guidance based on AI insights.",
+      "tags": ["icap", "coaching", "guidance", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb043",
+      "question": "What is the role of the Investigation Tab?",
+      "answer": "The Investigation Tab allows clinical teams to document detailed health information for reference and treatment planning.",
+      "tags": ["icap", "investigation", "clinical", "records"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb044",
+      "question": "Can members’ self-reports be tracked in ICAP?",
+      "answer": "Yes. Members can log activity, diet, sleep, and other health data, which are tracked and analyzed in ICAP for progress monitoring.",
+      "tags": ["icap", "self-report", "tracking", "data entry"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb045",
+      "question": "Is ICAP used for coordinating care plans?",
+      "answer": "Yes. Clinical Operations Team schedules consultations, creates care plans, and coordinates interventions through ICAP.",
+      "tags": ["icap", "care plan", "coordination", "clinical"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb046",
+      "question": "How is AI integrated in ICAP?",
+      "answer": "AI provides personalized nutrition, lifestyle, and activity recommendations, predicts metabolic responses, and assists coaches in decision-making.",
+      "tags": ["icap", "AI", "recommendations", "personalization"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb047",
+      "question": "Can ICAP help track member health progress over time?",
+      "answer": "Yes. ICAP stores historical health data and tracks trends to help clinicians and coaches monitor long-term progress.",
+      "tags": ["icap", "progress", "tracking", "long-term"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb048",
+      "question": "How does ICAP support remote monitoring?",
+      "answer": "ICAP collects sensor data, self-reports, and lab results digitally, enabling coaches and clinicians to monitor members remotely in real time.",
+      "tags": ["icap", "remote monitoring", "digital", "telehealth"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb049",
+      "question": "Does ICAP track member engagement?",
+      "answer": "Yes. ICAP tracks logins, adherence to plans, data submissions, and interaction with coaches to measure engagement.",
+      "tags": ["icap", "engagement", "tracking", "activity"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb050",
+      "question": "What is the maximum number of queries ICAP can support?",
+      "answer": "The Twin Health Chatbot using ICAP knowledge base can support up to 200 queries per user interaction session efficiently.",
+      "tags": ["icap", "queries", "chatbot", "limit"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb051",
+      "question": "How does ICAP ensure data accuracy?",
+      "answer": "ICAP validates inputs from labs, devices, and member self-reports, cross-checks inconsistencies, and ensures accurate records for clinical decisions.",
+      "tags": ["icap", "data accuracy", "validation", "records"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb052",
+      "question": "What is the role of the Coordinator Team in ICAP?",
+      "answer": "The Coordinator Team manages scheduling, ensures smooth workflow between teams, and resolves operational issues using ICAP.",
+      "tags": ["icap", "coordinator", "team", "operations"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb053",
+      "question": "How are alerts managed in ICAP?",
+      "answer": "ICAP generates alerts for missed logs, abnormal lab results, device issues, or pending tasks to notify coaches and clinical teams.",
+      "tags": ["icap", "alerts", "notifications", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb054",
+      "question": "Can ICAP generate reports?",
+      "answer": "Yes. ICAP can create progress reports, engagement summaries, treatment adherence statistics, and clinical outcome reports.",
+      "tags": ["icap", "reports", "analytics", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb055",
+      "question": "What are AI-driven recommendations in ICAP?",
+      "answer": "AI-driven recommendations analyze member data to suggest optimized nutrition, exercise, and lifestyle actions for improved metabolic health.",
+      "tags": ["icap", "AI", "recommendations", "personalization"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb056",
+      "question": "How does ICAP handle attachments?",
+      "answer": "ICAP allows teams to upload and store documents, lab reports, images, and other attachments for reference in patient records.",
+      "tags": ["icap", "attachments", "documents", "records"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb057",
+      "question": "Can ICAP track device activations?",
+      "answer": "Yes. Once devices like CGM sensors are delivered, ICAP tracks their activation and monitors data flow for each member.",
+      "tags": ["icap", "devices", "activation", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb058",
+      "question": "What is the role of the Lab Team in ICAP?",
+      "answer": "The Lab Team conducts tests, uploads results, ensures accuracy, and coordinates with clinical and onboarding teams via ICAP.",
+      "tags": ["icap", "lab", "tests", "team"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb059",
+      "question": "How does ICAP support treatment personalization?",
+      "answer": "ICAP integrates AI insights, lab data, device readings, and self-reports to help coaches and doctors create individualized treatment plans.",
+      "tags": ["icap", "treatment", "personalization", "AI"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb060",
+      "question": "Can ICAP monitor sleep patterns?",
+      "answer": "Yes. Members’ sleep data from apps or devices are logged into ICAP for monitoring and correlating with metabolic health outcomes.",
+      "tags": ["icap", "sleep", "tracking", "health"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb061",
+      "question": "How does ICAP track food intake?",
+      "answer": "Members log meals via the app; ICAP captures, categorizes, and analyzes nutrition data for coaches to provide AI-guided recommendations.",
+      "tags": ["icap", "food", "nutrition", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb062",
+      "question": "Does ICAP allow for self-reporting?",
+      "answer": "Yes. Members can log activities, glucose readings, food intake, and symptoms which ICAP consolidates for personalized feedback.",
+      "tags": ["icap", "self-report", "logging", "member data"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb063",
+      "question": "What is the Patient Onboarding section?",
+      "answer": "It is a section in ICAP where member details, billing, app installation, profile setup, and service activation are tracked.",
+      "tags": ["icap", "onboarding", "patients", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb064",
+      "question": "How are appointments scheduled in ICAP?",
+      "answer": "ICAP allows coaches and coordinators to schedule consultations, lab tests, and follow-ups with reminders and confirmations.",
+      "tags": ["icap", "appointments", "scheduling", "coordinator"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb065",
+      "question": "Can ICAP track adherence to nutrition plans?",
+      "answer": "Yes. ICAP monitors food logs and provides adherence metrics for coaches to track compliance with AI-guided meal plans.",
+      "tags": ["icap", "nutrition", "adherence", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb066",
+      "question": "How does ICAP help in medication tracking?",
+      "answer": "ICAP records prescribed medications, schedules, dosages, and monitors compliance through coach check-ins and member logs.",
+      "tags": ["icap", "medication", "tracking", "health"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb067",
+      "question": "Does ICAP provide real-time health monitoring?",
+      "answer": "Yes. Device data, lab results, and self-reports are captured in real-time to provide actionable insights to coaches and clinicians.",
+      "tags": ["icap", "real-time", "monitoring", "health"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb068",
+      "question": "How are member concerns tracked in ICAP?",
+      "answer": "ICAP allows logging concerns as tickets, which are tracked, assigned, and resolved by clinical or support teams.",
+      "tags": ["icap", "concerns", "tickets", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb069",
+      "question": "Can ICAP handle multiple members simultaneously?",
+      "answer": "Yes. ICAP is designed for high-volume member management, allowing multiple teams to handle many members efficiently.",
+      "tags": ["icap", "members", "multi-user", "scalability"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb070",
+      "question": "How does ICAP integrate with Twin Health mobile app?",
+      "answer": "Member data from the mobile app such as activity, nutrition, sleep, and glucose readings are synced automatically with ICAP for coach access.",
+      "tags": ["icap", "integration", "mobile app", "sync"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb071",
+      "question": "Does ICAP provide dashboards for individual members?",
+      "answer": "Yes. Coaches have dashboards showing health metrics, treatment adherence, nutrition logs, activity, and overall progress per member.",
+      "tags": ["icap", "dashboard", "member", "metrics"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb072",
+      "question": "Can ICAP be used for coaching follow-ups?",
+      "answer": "Yes. Coaches schedule sessions, review data, and provide guidance using ICAP’s follow-up and messaging tools.",
+      "tags": ["icap", "coaching", "follow-up", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb073",
+      "question": "How are device malfunctions managed in ICAP?",
+      "answer": "ICAP logs device errors and notifies the logistics and coaching teams for replacement or troubleshooting.",
+      "tags": ["icap", "device", "malfunction", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb074",
+      "question": "Does ICAP track activity plans?",
+      "answer": "Yes. Exercise and activity plans are monitored, and adherence is logged to measure effectiveness and optimize recommendations.",
+      "tags": ["icap", "activity", "exercise", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb075",
+      "question": "Can ICAP monitor trends in glucose levels?",
+      "answer": "Yes. ICAP analyzes daily glucose readings to detect trends and generate insights for treatment adjustments.",
+      "tags": ["icap", "glucose", "monitoring", "trends"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb076",
+      "question": "How does ICAP help manage allergies?",
+      "answer": "ICAP records allergies in the Investigation Section, ensures that clinical and coaching teams are aware, and avoids risks in meal and treatment plans.",
+      "tags": ["icap", "allergies", "tracking", "clinical"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb077",
+      "question": "Can ICAP track hereditary health issues?",
+      "answer": "Yes. ICAP stores hereditary data from member intake forms, aiding in personalized recommendations and risk assessment.",
+      "tags": ["icap", "hereditary", "tracking", "data"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb078",
+      "question": "Does ICAP support document attachments for investigations?",
+      "answer": "Yes. Lab reports, imaging, and other clinical documents can be uploaded and linked to the member record.",
+      "tags": ["icap", "attachments", "documents", "investigation"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb079",
+      "question": "How is ICAP updated with new features?",
+      "answer": "ICAP receives software updates, bug fixes, and new modules periodically, managed by the Twin Health technical team.",
+      "tags": ["icap", "updates", "features", "maintenance"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb080",
+      "question": "Can ICAP provide AI-based scoring for member health?",
+      "answer": "Yes. ICAP calculates health scores using AI models, integrating nutrition, activity, glucose, and sleep data.",
+      "tags": ["icap", "AI", "health score", "analytics"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb081",
+      "question": "What are supplementary plans in ICAP?",
+      "answer": "Supplementary plans include lifestyle guidance, optional coaching modules, and targeted interventions alongside primary treatment.",
+      "tags": ["icap", "plans", "supplementary", "coaching"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb082",
+      "question": "Can ICAP manage multiple care teams for a member?",
+      "answer": "Yes. ICAP allows coordination among doctors, coaches, and coordinators to manage each member’s care efficiently.",
+      "tags": ["icap", "care teams", "coordination", "management"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb083",
+      "question": "Does ICAP track member health trends over months?",
+      "answer": "Yes. Historical data allows trend analysis for glucose, weight, activity, nutrition, and sleep patterns over extended periods.",
+      "tags": ["icap", "trends", "long-term", "monitoring"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb084",
+      "question": "How are member status changes tracked in ICAP?",
+      "answer": "ICAP logs status updates such as pending, active, or completed, and notifies relevant teams for follow-up actions.",
+      "tags": ["icap", "status", "tracking", "workflow"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb085",
+      "question": "Can ICAP track billing status per member?",
+      "answer": "Yes. ICAP displays payment confirmations, pending invoices, and billing history for each member.",
+      "tags": ["icap", "billing", "payment", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb086",
+      "question": "How does ICAP assist in device delivery scheduling?",
+      "answer": "The logistics team uses ICAP to plan deliveries, track shipments, confirm receipt, and activate devices for each member.",
+      "tags": ["icap", "logistics", "delivery", "devices"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb087",
+      "question": "Does ICAP support feedback collection?",
+      "answer": "Yes. Member and coach feedback can be logged in ICAP to improve program quality and monitor satisfaction.",
+      "tags": ["icap", "feedback", "tracking", "improvement"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb088",
+      "question": "Can ICAP handle emergency alerts?",
+      "answer": "Yes. Critical health events trigger alerts in ICAP for immediate action by the care team.",
+      "tags": ["icap", "alerts", "emergency", "critical"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb089",
+      "question": "How are onboarding completions tracked in ICAP?",
+      "answer": "ICAP logs welcome calls, app installations, profile setups, and service activations to mark onboarding completion.",
+      "tags": ["icap", "onboarding", "tracking", "completion"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb090",
+      "question": "Can ICAP track program adherence over weeks?",
+      "answer": "Yes. ICAP monitors nutrition, activity, device usage, and self-reports over weeks to measure adherence and progress.",
+      "tags": ["icap", "adherence", "tracking", "weeks"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb091",
+      "question": "Does ICAP integrate lab test trends?",
+      "answer": "Yes. Lab results are stored over time in ICAP to analyze trends in blood sugar, HbA1c, and other markers.",
+      "tags": ["icap", "lab tests", "trends", "analysis"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb092",
+      "question": "Can ICAP track health improvements after program changes?",
+      "answer": "Yes. ICAP compares baseline and current data after interventions to measure improvements in metabolic health.",
+      "tags": ["icap", "tracking", "health improvements", "interventions"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb093",
+      "question": "How does ICAP track scheduled blood tests?",
+      "answer": "ICAP logs test dates, sends reminders, and updates results automatically for each scheduled test.",
+      "tags": ["icap", "blood test", "scheduling", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb094",
+      "question": "Can ICAP be used for multi-region operations?",
+      "answer": "Yes. ICAP supports members and teams across different regions, syncing data centrally for consistent management.",
+      "tags": ["icap", "multi-region", "operations", "centralized"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb095",
+      "question": "How are member questions handled in ICAP?",
+      "answer": "Members’ queries are logged as tickets, routed to the correct team, and tracked until resolution within ICAP.",
+      "tags": ["icap", "questions", "tickets", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb096",
+      "question": "Can ICAP handle subscription tracking?",
+      "answer": "Yes. ICAP logs subscription start/end dates, plan types, and renewals for members enrolled in the program.",
+      "tags": ["icap", "subscription", "tracking", "billing"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb097",
+      "question": "How is program eligibility verified in ICAP?",
+      "answer": "ICAP stores initial health assessments, enrollment forms, and eligibility criteria to confirm member suitability.",
+      "tags": ["icap", "eligibility", "verification", "assessment"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb098",
+      "question": "Does ICAP track member progress toward HbA1c reduction?",
+      "answer": "Yes. ICAP collects lab results over time and visualizes HbA1c trends for coaching and clinical review.",
+      "tags": ["icap", "HbA1c", "tracking", "progress"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb099",
+      "question": "Can ICAP integrate with IoT sensors?",
+      "answer": "Yes. IoT devices like CGM and scales send real-time data to ICAP for monitoring and AI analysis.",
+      "tags": ["icap", "IoT", "integration", "sensors"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb100",
+      "question": "How does ICAP track overall metabolic health?",
+      "answer": "ICAP combines nutrition, activity, sleep, glucose, and lab data into dashboards and health scores to monitor metabolic health holistically.",
+      "tags": ["icap", "metabolic health", "tracking", "dashboard"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb101",
+      "question": "How are coaching sessions tracked in ICAP?",
+      "answer": "ICAP logs session schedules, attendance, discussion notes, and follow-ups for each coaching interaction.",
+      "tags": ["icap", "coaching", "sessions", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb102",
+      "question": "Can ICAP track member sleep quality?",
+      "answer": "Yes. Sleep patterns are captured from devices or manual logs and analyzed in ICAP for correlations with metabolic health.",
+      "tags": ["icap", "sleep", "tracking", "health"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb103",
+      "question": "How does ICAP manage member lifestyle data?",
+      "answer": "Activity, nutrition, sleep, stress, and habit data are collected, stored, and visualized in ICAP for personalized recommendations.",
+      "tags": ["icap", "lifestyle", "data management", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb104",
+      "question": "Does ICAP provide member summary reports?",
+      "answer": "Yes. ICAP consolidates all clinical, activity, nutrition, and device data into comprehensive summaries for review.",
+      "tags": ["icap", "summary", "reports", "member"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb105",
+      "question": "How does ICAP handle billing discrepancies?",
+      "answer": "Discrepancies are flagged in ICAP, and the Billing Team investigates, corrects, and documents resolutions.",
+      "tags": ["icap", "billing", "discrepancy", "resolution"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb106",
+      "question": "Can ICAP generate health trend analytics?",
+      "answer": "Yes. ICAP analyzes glucose, activity, nutrition, and sleep trends to provide actionable insights for treatment adjustments.",
+      "tags": ["icap", "analytics", "health trends", "insights"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb107",
+      "question": "Does ICAP support multiple user roles?",
+      "answer": "Yes. Different teams like coaches, doctors, billing, and coordinators have role-based access and permissions in ICAP.",
+      "tags": ["icap", "user roles", "permissions", "access"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb108",
+      "question": "How are member concerns escalated in ICAP?",
+      "answer": "Concerns logged as tickets can be escalated to higher-level clinical or support teams based on severity.",
+      "tags": ["icap", "escalation", "tickets", "concerns"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb109",
+      "question": "Can ICAP provide adherence scores for members?",
+      "answer": "Yes. ICAP calculates adherence scores by combining nutrition logs, activity compliance, device usage, and self-reports.",
+      "tags": ["icap", "adherence", "scores", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb110",
+      "question": "Does ICAP track member device inventory?",
+      "answer": "Yes. ICAP maintains records of devices assigned, delivered, activated, and returned per member.",
+      "tags": ["icap", "devices", "inventory", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb111",
+      "question": "How does ICAP support lab result review?",
+      "answer": "Lab results are uploaded into ICAP, categorized, and flagged for abnormal values for coach and doctor review.",
+      "tags": ["icap", "lab results", "review", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb112",
+      "question": "Can ICAP provide member engagement metrics?",
+      "answer": "Yes. ICAP tracks login frequency, app usage, task completion, and interaction with coaches to measure engagement.",
+      "tags": ["icap", "engagement", "metrics", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb113",
+      "question": "Does ICAP allow for personalized goal setting?",
+      "answer": "Yes. Coaches can set nutrition, activity, and sleep goals per member, which are tracked and visualized in ICAP.",
+      "tags": ["icap", "goals", "personalization", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb114",
+      "question": "Can ICAP track member weight trends?",
+      "answer": "Yes. ICAP captures weight measurements over time and visualizes trends for coaching and clinical review.",
+      "tags": ["icap", "weight", "tracking", "trends"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb115",
+      "question": "How does ICAP handle member feedback?",
+      "answer": "Feedback can be submitted via the app or ICAP interface, categorized, and routed to relevant teams for action.",
+      "tags": ["icap", "feedback", "tracking", "action"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb116",
+      "question": "Does ICAP support multi-device data logging?",
+      "answer": "Yes. ICAP integrates data from multiple devices such as CGM sensors, smart scales, and wearables simultaneously.",
+      "tags": ["icap", "devices", "integration", "multi-device"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb117",
+      "question": "Can ICAP provide automated reminders?",
+      "answer": "Yes. ICAP sends reminders for appointments, medication, lab tests, and coaching sessions to members and coaches.",
+      "tags": ["icap", "reminders", "automation", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb118",
+      "question": "How does ICAP ensure data security?",
+      "answer": "ICAP uses encryption, role-based access, secure APIs, and audit logs to protect member and operational data.",
+      "tags": ["icap", "security", "data protection", "privacy"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb119",
+      "question": "Does ICAP track member program completion?",
+      "answer": "Yes. ICAP logs milestones, goal achievements, and final outcomes to determine completion status.",
+      "tags": ["icap", "program", "completion", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb120",
+      "question": "Can ICAP provide health alerts for abnormal readings?",
+      "answer": "Yes. Abnormal glucose, blood pressure, or other vitals trigger alerts for coaches and clinical teams.",
+      "tags": ["icap", "alerts", "health", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb121",
+      "question": "How does ICAP support remote coaching?",
+      "answer": "ICAP provides real-time access to member data, dashboards, and communication tools for remote coaching.",
+      "tags": ["icap", "remote", "coaching", "support"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb122",
+      "question": "Does ICAP track member lifestyle changes over time?",
+      "answer": "Yes. Nutrition, activity, sleep, and habits are tracked to assess long-term behavioral changes.",
+      "tags": ["icap", "lifestyle", "tracking", "long-term"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb123",
+      "question": "Can ICAP generate device usage reports?",
+      "answer": "Yes. ICAP provides insights into CGM sensor, scale, and other device usage for monitoring adherence.",
+      "tags": ["icap", "devices", "usage reports", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb124",
+      "question": "How does ICAP support multi-channel member enrollment?",
+      "answer": "ICAP tracks members enrolled via DX, Doctor, or B2B channels, consolidating their data for team access.",
+      "tags": ["icap", "enrollment", "multi-channel", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb125",
+      "question": "Does ICAP track health score improvements?",
+      "answer": "Yes. ICAP calculates health scores from nutrition, activity, and lab data, showing progress over time.",
+      "tags": ["icap", "health score", "tracking", "progress"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb126",
+      "question": "Can ICAP track patient-reported symptoms?",
+      "answer": "Yes. Symptoms reported by members are logged, categorized, and reviewed by coaches and clinical teams.",
+      "tags": ["icap", "symptoms", "tracking", "patient-reported"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb127",
+      "question": "How does ICAP handle multi-step onboarding?",
+      "answer": "ICAP tracks each onboarding step, including verification, app installation, device setup, and active status activation.",
+      "tags": ["icap", "onboarding", "steps", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb128",
+      "question": "Does ICAP support longitudinal data analysis?",
+      "answer": "Yes. ICAP stores historical member data to analyze long-term trends and outcomes.",
+      "tags": ["icap", "longitudinal", "analysis", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb129",
+      "question": "Can ICAP track member engagement with coaching plans?",
+      "answer": "Yes. Completion of assigned tasks, interactions, and adherence are monitored in ICAP.",
+      "tags": ["icap", "engagement", "coaching", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb130",
+      "question": "How are investigation attachments organized in ICAP?",
+      "answer": "Documents, lab reports, and images are linked to specific investigation entries for easy reference.",
+      "tags": ["icap", "attachments", "investigation", "organization"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb131",
+      "question": "Does ICAP allow workflow automation?",
+      "answer": "Yes. Task assignments, reminders, and alerts are automated to streamline member management.",
+      "tags": ["icap", "automation", "workflow", "tasks"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb132",
+      "question": "Can ICAP track member progress across multiple programs?",
+      "answer": "Yes. ICAP consolidates data for members enrolled in different programs or plans for a unified view.",
+      "tags": ["icap", "programs", "tracking", "consolidation"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb133",
+      "question": "How does ICAP support remote lab result access?",
+      "answer": "Lab results are uploaded to ICAP, accessible remotely to coaches and clinical teams for timely decision-making.",
+      "tags": ["icap", "remote access", "lab results", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb134",
+      "question": "Does ICAP track device battery status?",
+      "answer": "Yes. Device connectivity and battery levels are monitored to ensure continuous data collection.",
+      "tags": ["icap", "devices", "battery", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb135",
+      "question": "Can ICAP track member participation in surveys?",
+      "answer": "Yes. ICAP logs survey responses and completion status for each member.",
+      "tags": ["icap", "surveys", "participation", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb136",
+      "question": "How does ICAP track nutrition plan adherence?",
+      "answer": "ICAP compares meal logs against AI-driven recommendations to calculate adherence and suggest improvements.",
+      "tags": ["icap", "nutrition", "adherence", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb137",
+      "question": "Does ICAP track program engagement analytics?",
+      "answer": "Yes. It tracks usage, task completion, coaching interactions, and survey responses to measure engagement.",
+      "tags": ["icap", "analytics", "engagement", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb138",
+      "question": "Can ICAP handle cross-team collaboration?",
+      "answer": "Yes. Doctors, coaches, coordinators, and billing teams can collaborate using shared dashboards and notes in ICAP.",
+      "tags": ["icap", "collaboration", "teams", "workflow"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb139",
+      "question": "How does ICAP integrate with AI recommendations?",
+      "answer": "AI-generated meal, activity, and lifestyle suggestions are displayed within ICAP for coach review and member guidance.",
+      "tags": ["icap", "AI", "integration", "recommendations"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb140",
+      "question": "Does ICAP track coaching plan completion?",
+      "answer": "Yes. Completion of assigned coaching tasks is logged and visualized in ICAP dashboards.",
+      "tags": ["icap", "coaching", "completion", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb141",
+      "question": "Can ICAP track member device errors?",
+      "answer": "Yes. Device malfunctions and connectivity issues are logged and assigned for resolution.",
+      "tags": ["icap", "devices", "errors", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb142",
+      "question": "How does ICAP track overall treatment plans?",
+      "answer": "ICAP consolidates doctor prescriptions, coaching plans, and progress metrics into a unified treatment plan per member.",
+      "tags": ["icap", "treatment", "plans", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb143",
+      "question": "Does ICAP monitor member app usage?",
+      "answer": "Yes. Login frequency, features accessed, and task completions are tracked to understand member engagement.",
+      "tags": ["icap", "app usage", "tracking", "monitoring"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb144",
+      "question": "Can ICAP generate clinical alerts for doctors?",
+      "answer": "Yes. Abnormal lab values, symptoms, or device readings trigger alerts in ICAP for clinical review.",
+      "tags": ["icap", "clinical", "alerts", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb145",
+      "question": "How does ICAP manage multi-step nutrition plans?",
+      "answer": "Each nutrition step is tracked, logged, and reviewed in ICAP to ensure adherence and effectiveness.",
+      "tags": ["icap", "nutrition", "plans", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb146",
+      "question": "Does ICAP provide alerts for medication schedules?",
+      "answer": "Yes. ICAP sends reminders and flags missed medication events for coach and doctor review.",
+      "tags": ["icap", "medication", "alerts", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb147",
+      "question": "Can ICAP track member adherence to self-report plans?",
+      "answer": "Yes. Members' completion of self-report tasks is monitored and logged in ICAP for coaching review.",
+      "tags": ["icap", "self-report", "adherence", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb148",
+      "question": "How does ICAP support real-time data updates?",
+      "answer": "Device and app data are continuously synced to ICAP, providing near real-time dashboards for teams.",
+      "tags": ["icap", "real-time", "updates", "data"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb149",
+      "question": "Does ICAP track member interactions with coaches?",
+      "answer": "Yes. Messages, calls, and session notes are logged in ICAP to maintain a complete interaction history.",
+      "tags": ["icap", "interactions", "coaches", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb150",
+      "question": "Can ICAP generate executive dashboards for management?",
+      "answer": "Yes. Consolidated metrics, trends, and member performance data are visualized for leadership review.",
+      "tags": ["icap", "dashboard", "management", "metrics"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb151",
+      "question": "How does ICAP manage member follow-up tasks?",
+      "answer": "ICAP assigns follow-up tasks to coaches and coordinators, logs completion, and sets reminders for timely execution.",
+      "tags": ["icap", "follow-up", "tasks", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb152",
+      "question": "Can ICAP generate member progress charts?",
+      "answer": "Yes. ICAP visualizes health score, glucose trends, weight changes, and other metrics over time.",
+      "tags": ["icap", "progress", "charts", "visualization"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb153",
+      "question": "Does ICAP track member referrals?",
+      "answer": "Yes. ICAP logs referrals from doctors, DX channels, and existing members for enrollment tracking.",
+      "tags": ["icap", "referrals", "tracking", "members"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb154",
+      "question": "How are device delivery issues managed in ICAP?",
+      "answer": "ICAP tracks delivery status, flags delays, and alerts logistics and onboarding teams for resolution.",
+      "tags": ["icap", "devices", "delivery", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb155",
+      "question": "Can ICAP track member consent forms?",
+      "answer": "Yes. Consent forms for program participation, data sharing, and device usage are stored and tracked in ICAP.",
+      "tags": ["icap", "consent", "tracking", "forms"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb156",
+      "question": "How does ICAP support teleconsultation scheduling?",
+      "answer": "ICAP allows doctors and coaches to schedule video or phone consultations, sending reminders to members automatically.",
+      "tags": ["icap", "teleconsultation", "scheduling", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb157",
+      "question": "Does ICAP track member diet plan completion?",
+      "answer": "Yes. Meal logging and adherence to AI-recommended plans are tracked and summarized for coaching review.",
+      "tags": ["icap", "diet", "tracking", "completion"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb158",
+      "question": "Can ICAP provide alerts for overdue tasks?",
+      "answer": "Yes. Tasks not completed within scheduled timelines trigger alerts for responsible teams in ICAP.",
+      "tags": ["icap", "alerts", "tasks", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb159",
+      "question": "How does ICAP track member activity data?",
+      "answer": "ICAP collects step counts, workouts, and activity durations from connected devices or manual entries for analysis.",
+      "tags": ["icap", "activity", "tracking", "data"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb160",
+      "question": "Does ICAP provide member engagement heatmaps?",
+      "answer": "Yes. ICAP visualizes interaction frequency, app usage, and coaching engagement for each member.",
+      "tags": ["icap", "engagement", "heatmap", "visualization"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb161",
+      "question": "Can ICAP track member adherence to exercise plans?",
+      "answer": "Yes. Daily and weekly exercise logs are recorded, analyzed, and visualized for coaching feedback.",
+      "tags": ["icap", "exercise", "adherence", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb162",
+      "question": "How does ICAP handle escalation of critical health readings?",
+      "answer": "ICAP flags critical readings and automatically notifies clinical teams and coaches for immediate action.",
+      "tags": ["icap", "alerts", "critical", "health"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb163",
+      "question": "Does ICAP track member satisfaction surveys?",
+      "answer": "Yes. Survey responses are logged, categorized, and analyzed for coaching and program improvement.",
+      "tags": ["icap", "surveys", "tracking", "satisfaction"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb164",
+      "question": "Can ICAP provide automated coaching suggestions?",
+      "answer": "Yes. Based on member data, ICAP provides suggested coaching interventions for review by the coach.",
+      "tags": ["icap", "coaching", "automation", "suggestions"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb165",
+      "question": "How does ICAP manage device calibration records?",
+      "answer": "Calibration events, dates, and results are tracked in ICAP to ensure data accuracy.",
+      "tags": ["icap", "devices", "calibration", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb166",
+      "question": "Does ICAP track coaching session ratings?",
+      "answer": "Yes. Members can rate sessions, which are logged in ICAP for feedback and coach evaluation.",
+      "tags": ["icap", "coaching", "ratings", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb167",
+      "question": "Can ICAP provide monthly summary reports for management?",
+      "answer": "Yes. Consolidated metrics, engagement scores, and performance data are compiled into monthly reports.",
+      "tags": ["icap", "summary", "monthly", "reports"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb168",
+      "question": "How does ICAP handle device warranty and replacement tracking?",
+      "answer": "Device status, warranty expiration, and replacement requests are tracked and managed in ICAP.",
+      "tags": ["icap", "devices", "warranty", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb169",
+      "question": "Does ICAP track member program milestones?",
+      "answer": "Yes. Key achievements and milestones are logged and visualized for progress tracking.",
+      "tags": ["icap", "program", "milestones", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb170",
+      "question": "Can ICAP track multi-site operations in India?",
+      "answer": "Yes. ICAP consolidates member data and team activities across multiple cities and offices.",
+      "tags": ["icap", "multi-site", "operations", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb171",
+      "question": "How does ICAP handle member document uploads?",
+      "answer": "ICAP allows secure upload of PDFs, images, and lab reports linked to member records.",
+      "tags": ["icap", "documents", "uploads", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb172",
+      "question": "Does ICAP provide reminders for lab test schedules?",
+      "answer": "Yes. Automated notifications are sent to members and teams for upcoming tests.",
+      "tags": ["icap", "lab", "reminders", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb173",
+      "question": "Can ICAP generate personalized coaching plans?",
+      "answer": "Yes. Based on health data and AI analysis, ICAP proposes personalized coaching interventions.",
+      "tags": ["icap", "coaching", "plans", "personalization"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb174",
+      "question": "How does ICAP support cross-device synchronization?",
+      "answer": "Data from mobile apps, CGM devices, and wearables are automatically synced to ICAP dashboards.",
+      "tags": ["icap", "devices", "sync", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb175",
+      "question": "Does ICAP track member program adherence over months?",
+      "answer": "Yes. Longitudinal adherence metrics for nutrition, activity, and coaching are recorded and visualized.",
+      "tags": ["icap", "adherence", "longitudinal", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb176",
+      "question": "Can ICAP provide dashboards for doctor review?",
+      "answer": "Yes. Doctors can access dashboards showing member health, engagement, and alerts for care decisions.",
+      "tags": ["icap", "dashboards", "doctor", "review"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb177",
+      "question": "How does ICAP handle cross-team notifications?",
+      "answer": "ICAP automatically notifies relevant teams of critical events, updates, or member concerns.",
+      "tags": ["icap", "notifications", "teams", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb178",
+      "question": "Does ICAP track completion of lifestyle challenges?",
+      "answer": "Yes. Member participation and completion of challenges are logged and visualized for motivation.",
+      "tags": ["icap", "lifestyle", "challenges", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb179",
+      "question": "Can ICAP track appointment cancellations?",
+      "answer": "Yes. Cancellations are logged, reasons recorded, and rescheduling is facilitated within ICAP.",
+      "tags": ["icap", "appointments", "cancellations", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb180",
+      "question": "How does ICAP integrate member AI insights into coaching?",
+      "answer": "AI-based predictions and recommendations are displayed in ICAP dashboards for coaches to guide interventions.",
+      "tags": ["icap", "AI", "coaching", "integration"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb181",
+      "question": "Does ICAP support multiple language interfaces?",
+      "answer": "Yes. ICAP provides interface options for regional languages to ensure accessibility for all team members.",
+      "tags": ["icap", "languages", "interface", "support"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb182",
+      "question": "Can ICAP track member hydration logs?",
+      "answer": "Yes. Daily water intake can be logged manually or via device integration and tracked for recommendations.",
+      "tags": ["icap", "hydration", "tracking", "logs"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb183",
+      "question": "How does ICAP handle missed blood tests?",
+      "answer": "Missed tests are flagged, notifications sent to members and teams, and rescheduling is managed within ICAP.",
+      "tags": ["icap", "blood tests", "missed", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb184",
+      "question": "Does ICAP provide historical trend reports?",
+      "answer": "Yes. ICAP generates reports showing trends across glucose, weight, sleep, and adherence over months.",
+      "tags": ["icap", "trend reports", "historical", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb185",
+      "question": "Can ICAP track multi-member household data?",
+      "answer": "Yes. Members from the same household can be linked for comparative insights and tracking.",
+      "tags": ["icap", "multi-member", "household", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb186",
+      "question": "How does ICAP handle nutrition goal adjustments?",
+      "answer": "ICAP updates goals based on adherence, progress, and AI recommendations, notifying coaches for review.",
+      "tags": ["icap", "nutrition", "goals", "adjustments"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb187",
+      "question": "Does ICAP track member device connectivity history?",
+      "answer": "Yes. Logs show periods of connection, disconnection, and data sync failures for each device.",
+      "tags": ["icap", "devices", "connectivity", "history"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb188",
+      "question": "Can ICAP generate alerts for inactive members?",
+      "answer": "Yes. Members with low engagement or missed tasks trigger alerts for follow-up by coaches.",
+      "tags": ["icap", "alerts", "inactive", "members"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb189",
+      "question": "How does ICAP track member milestone achievements?",
+      "answer": "Completion of specific goals, challenges, and plan adherence is logged and visualized as milestones.",
+      "tags": ["icap", "milestones", "tracking", "achievements"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb190",
+      "question": "Does ICAP provide downloadable reports?",
+      "answer": "Yes. Member data, summaries, and analytics can be exported as PDF or CSV for internal review.",
+      "tags": ["icap", "reports", "downloadable", "analytics"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb191",
+      "question": "Can ICAP track member communication history?",
+      "answer": "Yes. Emails, messages, calls, and coaching notes are logged for a full communication record.",
+      "tags": ["icap", "communication", "tracking", "history"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb192",
+      "question": "How does ICAP handle member program withdrawal?",
+      "answer": "ICAP records withdrawal requests, reasons, and updates member status, notifying relevant teams.",
+      "tags": ["icap", "withdrawal", "program", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb193",
+      "question": "Does ICAP support bulk member updates?",
+      "answer": "Yes. Admins can perform batch updates for enrollment, status, or plan changes.",
+      "tags": ["icap", "bulk", "updates", "members"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb194",
+      "question": "Can ICAP track member support tickets?",
+      "answer": "Yes. Tickets raised for technical or program issues are logged, assigned, and resolved in ICAP.",
+      "tags": ["icap", "support", "tickets", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb195",
+      "question": "How does ICAP manage member billing exceptions?",
+      "answer": "Billing discrepancies are logged, escalated, and resolved, with audit trails maintained in ICAP.",
+      "tags": ["icap", "billing", "exceptions", "management"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb196",
+      "question": "Does ICAP track member AI health predictions?",
+      "answer": "Yes. Predicted outcomes, risk scores, and recommended interventions are logged and visible to coaches and doctors.",
+      "tags": ["icap", "AI", "health predictions", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb197",
+      "question": "Can ICAP generate weekly member summary emails?",
+      "answer": "Yes. Automated weekly summaries of health data, adherence, and progress can be sent to members and coaches.",
+      "tags": ["icap", "summary", "emails", "weekly"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb198",
+      "question": "How does ICAP handle new feature rollouts?",
+      "answer": "ICAP updates are rolled out to teams incrementally, with release notes and user training provided.",
+      "tags": ["icap", "features", "rollout", "updates"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb199",
+      "question": "Does ICAP track compliance with clinical protocols?",
+      "answer": "Yes. Adherence to standard operating procedures, clinical pathways, and safety protocols is monitored in ICAP.",
+      "tags": ["icap", "clinical", "compliance", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb200",
+      "question": "Can ICAP provide a unified view of member health journeys?",
+      "answer": "Yes. ICAP consolidates enrollment, investigations, treatment, nutrition, coaching, and engagement data into a complete member health journey view.",
+      "tags": ["icap", "member journey", "unified view", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb201",
+      "question": "I have diabetes. How to treat my health issue?",
+      "answer": "That's very sad to hear. Don't worry. Twin Health provides metabolic treatment to identify the root cause of diabetes and help reduce your health issues along with medication dependency.",
+      "tags": ["medical guidance", "diabetes", "treatment", "health issue"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb202",
+      "question": "I am a pregnant lady. I have periods problem. Do you have any solution for this?",
+      "answer": "I am a health assistant only to provide guidance, but you can consult Twin Health corresponding teams for the best results.",
+      "tags": ["medical guidance", "pregnancy", "menstrual", "health issue"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb203",
+      "question": "I want to join Twin Health. Help me.",
+      "answer": "Nice to hear that! You can provide your contact details on the official website. Our onboarding team will get in touch with you soon.",
+      "tags": ["medical guidance", "program", "join", "enrollment"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb204",
+      "question": "Which health issues can be managed by Twin Health?",
+      "answer": "Twin Health primarily focuses on Type 2 Diabetes, prediabetes, obesity, and metabolic syndrome. For personalized guidance, you can consult our care team.",
+      "tags": ["medical guidance", "eligibility", "health issues", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb205",
+      "question": "Can Twin Health help reduce my diabetes medication?",
+      "answer": "Yes, under physician supervision, Twin Health's personalized program may help reduce or eliminate certain diabetes medications safely.",
+      "tags": ["medical guidance", "diabetes", "medication", "treatment"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb206",
+      "question": "Hi!",
+      "answer": "Hello! What can I do for you today?",
+      "tags": ["greetings", "hello", "hi", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb207",
+      "question": "Hello!",
+      "answer": "Hi there! How can I assist you today?",
+      "tags": ["greetings", "hello", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb208",
+      "question": "How are you?",
+      "answer": "I am fine. How about you?",
+      "tags": ["greetings", "small talk", "how are you"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb209",
+      "question": "Good morning!",
+      "answer": "Good morning! Hope you have a great day. How can I assist you?",
+      "tags": ["greetings", "morning", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb210",
+      "question": "Good evening!",
+      "answer": "Good evening! How was your day? How can I help you?",
+      "tags": ["greetings", "evening", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb211",
+      "question": "I have high blood sugar. What should I do?",
+      "answer": "You should consult your healthcare provider. Twin Health can guide you with a metabolic program to help manage blood sugar naturally.",
+      "tags": ["medical guidance", "blood sugar", "treatment", "diabetes"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb212",
+      "question": "I am obese and want to lose weight. Can Twin Health help?",
+      "answer": "Yes. Twin Health provides personalized nutrition and lifestyle guidance to support sustainable weight loss.",
+      "tags": ["medical guidance", "obesity", "weight loss", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb213",
+      "question": "Good night!",
+      "answer": "Good night! Sleep well. How else can I assist you?",
+      "tags": ["greetings", "night", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb214",
+      "question": "Hey!",
+      "answer": "Hey there! How can I help you today?",
+      "tags": ["greetings", "hey", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb215",
+      "question": "I have prediabetes. Can I join Twin Health?",
+      "answer": "Yes. Prediabetic individuals can join the program to improve metabolic health and prevent diabetes progression.",
+      "tags": ["medical guidance", "prediabetes", "eligibility", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb216",
+      "question": "Hi Twin Health!",
+      "answer": "Hello! Welcome. How can I assist you today?",
+      "tags": ["greetings", "hello", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb217",
+      "question": "How do I get started with Twin Health?",
+      "answer": "You can start by visiting the Twin Health website or app, submitting your details, and our onboarding team will guide you through enrollment.",
+      "tags": ["medical guidance", "enrollment", "program", "guidance"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb218",
+      "question": "Hello chatbot!",
+      "answer": "Hi! I am your health assistant. How can I help you today?",
+      "tags": ["greetings", "hello", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb219",
+      "question": "Can Twin Health help with insulin management?",
+      "answer": "Yes. Twin Health works with medical supervision to optimize insulin usage based on metabolic improvements.",
+      "tags": ["medical guidance", "insulin", "diabetes", "treatment"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb220",
+      "question": "How are you doing?",
+      "answer": "I am doing well. How about you?",
+      "tags": ["greetings", "small talk", "how are you"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb221",
+      "question": "Good afternoon!",
+      "answer": "Good afternoon! How can I assist you today?",
+      "tags": ["greetings", "afternoon", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb222",
+      "question": "I have metabolic syndrome. Can Twin Health help me?",
+      "answer": "Yes. Twin Health provides personalized guidance to improve metabolic health and reduce risks associated with metabolic syndrome.",
+      "tags": ["medical guidance", "metabolic syndrome", "treatment", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb223",
+      "question": "Hey Twin Health!",
+      "answer": "Hello! I am here to help you. What would you like to know?",
+      "tags": ["greetings", "hey", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb224",
+      "question": "I have high cholesterol. Can Twin Health help me manage it?",
+      "answer": "Twin Health provides metabolic-focused guidance, including diet and lifestyle recommendations, to help manage cholesterol levels safely.",
+      "tags": ["medical guidance", "cholesterol", "treatment", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb225",
+      "question": "Hi there!",
+      "answer": "Hello! How can I help you today?",
+      "tags": ["greetings", "hi", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb226",
+      "question": "I am struggling with obesity and insulin resistance. Can I join?",
+      "answer": "Yes. Twin Health's personalized program helps manage insulin resistance and supports sustainable weight loss under medical supervision.",
+      "tags": ["medical guidance", "obesity", "insulin resistance", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb227",
+      "question": "Good evening Twin Health!",
+      "answer": "Good evening! How can I assist you today?",
+      "tags": ["greetings", "evening", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb228",
+      "question": "I want to manage my Type 2 Diabetes. What should I do?",
+      "answer": "You can enroll in Twin Health’s program. Our AI-driven guidance with clinician support helps manage blood sugar and reduce medication dependency.",
+      "tags": ["medical guidance", "type 2 diabetes", "treatment", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb229",
+      "question": "Hello there!",
+      "answer": "Hi! How can I assist you today?",
+      "tags": ["greetings", "hello", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb230",
+      "question": "I have prediabetes and obesity. Can I join Twin Health?",
+      "answer": "Yes. Twin Health provides personalized plans to help improve metabolic health, prevent diabetes progression, and support weight management.",
+      "tags": ["medical guidance", "prediabetes", "obesity", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb231",
+      "question": "Good morning Twin Health!",
+      "answer": "Good morning! Hope you have a great day. How can I assist you?",
+      "tags": ["greetings", "morning", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb232",
+      "question": "I have diabetes and high blood pressure. Can I join?",
+      "answer": "Yes. Twin Health provides programs to manage diabetes and metabolic health safely. For blood pressure, consult your physician while following our program.",
+      "tags": ["medical guidance", "diabetes", "hypertension", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb233",
+      "question": "Hi Twin Health Chatbot!",
+      "answer": "Hello! I am your health assistant. How can I help you today?",
+      "tags": ["greetings", "hi", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb234",
+      "question": "I have prediabetes. What guidance can I get?",
+      "answer": "Twin Health can provide metabolic insights, personalized nutrition, and lifestyle recommendations to help prevent progression to Type 2 Diabetes.",
+      "tags": ["medical guidance", "prediabetes", "guidance", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb235",
+      "question": "Good afternoon Twin Health!",
+      "answer": "Good afternoon! How can I assist you today?",
+      "tags": ["greetings", "afternoon", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb236",
+      "question": "I have type 2 diabetes and want to reduce medication. Can Twin Health help?",
+      "answer": "Yes. With medical supervision, Twin Health provides personalized guidance that may help reduce certain medications safely while improving metabolic health.",
+      "tags": ["medical guidance", "type 2 diabetes", "medication reduction", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb237",
+      "question": "Hello, how are you?",
+      "answer": "I am fine. How about you?",
+      "tags": ["greetings", "small talk", "how are you"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb238",
+      "question": "I want guidance for managing obesity and diabetes.",
+      "answer": "Twin Health provides personalized metabolic programs including nutrition, exercise, and lifestyle guidance to manage obesity and diabetes safely.",
+      "tags": ["medical guidance", "obesity", "diabetes", "guidance"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb239",
+      "question": "Hi, can you help me?",
+      "answer": "Hello! Sure, I can help. What would you like to know?",
+      "tags": ["greetings", "hi", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb240",
+      "question": "I am concerned about my metabolic health. Can I join Twin Health?",
+      "answer": "Yes. Twin Health provides personalized programs to optimize metabolic health using AI-guided recommendations and clinician support.",
+      "tags": ["medical guidance", "metabolic health", "program", "eligibility"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb241",
+      "question": "Good night Twin Health!",
+      "answer": "Good night! Sleep well. How can I assist you further?",
+      "tags": ["greetings", "night", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb242",
+      "question": "Hi, I need help with my diabetes.",
+      "answer": "Hello! Twin Health can guide you with a personalized metabolic program and lifestyle recommendations. Medical supervision is included.",
+      "tags": ["medical guidance", "diabetes", "program", "guidance"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb243",
+      "question": "Hello! I am feeling unwell.",
+      "answer": "I am sorry to hear that. Twin Health can guide you with general metabolic advice, but please consult a licensed healthcare professional for personal treatment.",
+      "tags": ["medical guidance", "health issue", "guidance", "advice"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb244",
+      "question": "Hi! How are you today?",
+      "answer": "I am doing well! How about you?",
+      "tags": ["greetings", "small talk", "how are you"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb245",
+      "question": "I have high blood sugar and obesity. Can Twin Health help?",
+      "answer": "Yes. Twin Health provides personalized metabolic programs and lifestyle guidance to manage blood sugar and support weight management.",
+      "tags": ["medical guidance", "diabetes", "obesity", "program"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb246",
+      "question": "Good morning Twin Health!",
+      "answer": "Good morning! How can I assist you today?",
+      "tags": ["greetings", "morning", "small talk"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb247",
+      "question": "Hi, I have a health problem. Can you advise?",
+      "answer": "Hello! I can provide general guidance, but for personalized treatment, please consult our Twin Health care team.",
+      "tags": ["medical guidance", "health issue", "guidance", "advice"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb248",
+      "question": "Hello! What can you do?",
+      "answer": "Hi! I can provide information about Twin Health programs, diabetes reversal, metabolic health guidance, and general assistance.",
+      "tags": ["greetings", "hello", "small talk", "capabilities"],
+      "category": "Greetings & Small Talk",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb249",
+      "question": "I want to consult about my diabetes medication. Can I?",
+      "answer": "You can consult with Twin Health care team for guidance. I provide general metabolic advice, but medication adjustments require medical supervision.",
+      "tags": ["medical guidance", "diabetes", "medication", "consultation"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb250",
+      "question": "Hi! Can you guide me to join the program?",
+      "answer": "Sure! You can provide your contact details on the official Twin Health website, and our onboarding team will reach out to guide you through enrollment.",
+      "tags": ["medical guidance", "program", "enrollment", "guidance"],
+      "category": "Medical Guidance",
+      "source": "chatbot_guidance",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb251",
+      "question": "I did not receive the CGM Batch. Already I have completed the payment process. How can I get it?",
+      "answer": "We are sorry for the inconvenience caused. Our onboarding team will contact the logistics team to resolve this, and your query will be addressed very soon. Kindly be patient.",
+      "tags": ["ICAP", "logistics", "CGM", "payment issue", "onboarding"],
+      "category": "ICAP",
+      "source": "ICAP_logistics",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb252",
+      "question": "I want to connect with the doctor to discuss my medical data.",
+      "answer": "Sure! Our clinical operations team will discuss with the doctor and appointment date will be communicated later. Please follow up with your coach team and care support team.",
+      "tags": ["ICAP", "doctor", "clinical operations", "appointment", "medical data"],
+      "category": "ICAP",
+      "source": "ICAP_clinical_operations",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb253",
+      "question": "Will my medical data have privacy and safety?",
+      "answer": "Definitely! We securely maintain your health-data in the form of electronic health records. We value our members' data equal to them. So, do not worry about this.",
+      "tags": ["ICAP", "privacy", "data safety", "health records", "security"],
+      "category": "ICAP",
+      "source": "ICAP_data_privacy",
+      "last_updated": "2026-01-02"
     }
-],
+  ],
   "usage_notes": "Match user queries using question text and tags. Prefer Twin Health diabetes-related intent. Provide answers with source and last_updated metadata. Avoid giving medical advice beyond program description.",
   "license": "internal_use_only"
 }
