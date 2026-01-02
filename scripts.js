@@ -7,13 +7,15 @@ let activeChatId = null;
 let kbEntries = [];
 let kbLoaded = false;
 
-const chatMessages = document.getElementById('chatMessages');
-const userInput = document.getElementById('userInput');
-const typingIndicator = document.getElementById('typingIndicator');
-const themeToggle = document.getElementById('themeToggle');
-const tabsContainer = document.getElementById('tabsContainer');
-const newTabBtn = document.getElementById('newTabBtn');
-const deleteTabBtn = document.getElementById('deleteTabBtn');
+// Initialize DOM elements after page loads
+let chatMessages;
+let userInput;
+let typingIndicator;
+let themeToggle;
+let tabsContainer;
+let newTabBtn;
+let deleteTabBtn;
+let sendBtn;
 
 
 /* ===============================
@@ -57,8 +59,10 @@ function toggleDarkMode() {
     document.body.classList.toggle('dark');
     const isDark = document.body.classList.contains('dark');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    themeToggle.textContent = isDark ? '☀️' : '🌙';
-    themeToggle.setAttribute('data-tooltip', isDark ? 'Toggle light mode' : 'Toggle dark mode');
+    if (themeToggle) {
+        themeToggle.textContent = isDark ? '☀️' : '🌙';
+        themeToggle.setAttribute('data-tooltip', isDark ? 'Toggle light mode' : 'Toggle dark mode');
+    }
 }
 
 /* ===============================
@@ -70,6 +74,7 @@ async function loadKnowledgeBase() {
         const data = await response.json();
         kbEntries = Array.isArray(data.entries) ? data.entries : [];
         kbLoaded = true;
+        console.log('Knowledge base loaded successfully:', kbEntries.length, 'entries');
     } catch (err) {
         kbLoaded = false;
         console.error('KB load failed', err);
@@ -130,13 +135,13 @@ function createNewChat() {
         isWelcome: true
     }];
     // Set default name for the tab
-    chats[id].name = `Chat ${Object.keys(chats).length + 0}`;
+    chats[id].name = `Chat ${Object.keys(chats).length}`;
     
     activeChatId = id;
     saveToStorage();
     renderTabs();
     renderMessages();
-    userInput.focus();
+    if (userInput) userInput.focus();
 }
 
 
@@ -150,7 +155,7 @@ function switchToChat(chatId) {
         saveToStorage();
         renderTabs();
         renderMessages();
-        userInput.focus();
+        if (userInput) userInput.focus();
     }
 }
 
@@ -199,9 +204,11 @@ function renameCurrentChat() {
 /* ===============================
     LINK RENAME BUTTON
    =============================== */
-const renameTabBtn = document.getElementById('renameTabBtn');
-if (renameTabBtn) {
-    renameTabBtn.onclick = renameCurrentChat;
+function setupRenameButton() {
+    const renameTabBtn = document.getElementById('renameTabBtn');
+    if (renameTabBtn) {
+        renameTabBtn.onclick = renameCurrentChat;
+    }
 }
 
 function renderTabs() {
@@ -261,88 +268,8 @@ function deleteCurrentChat() {
     saveToStorage();
     renderTabs();
     renderMessages();
-    userInput.focus();
+    if (userInput) userInput.focus();
 }
-
-/* ===============================
-   EXPORT CURRENT CHAT
-   =============================== */
-
-// Function to export current chat in multiple formats
-function exportCurrentChat() {
-    const currentChat = conversations[currentChatIndex]; // Get active chat
-
-    if (!currentChat || !currentChat.messages || currentChat.messages.length === 0) {
-        alert("No messages to export for this chat.");
-        return;
-    }
-
-    const format = document.getElementById("export-format").value;
-    const filename = `chat_${currentChat.id || Date.now()}.${format}`;
-
-    let blob;
-
-    switch (format) {
-        case "json":
-            blob = new Blob([JSON.stringify(currentChat, null, 2)], { type: "application/json" });
-            break;
-
-        case "txt":
-            const txtContent = currentChat.messages
-                .map(msg => `[${msg.role.toUpperCase()}] ${msg.text}`)
-                .join("\n");
-            blob = new Blob([txtContent], { type: "text/plain" });
-            break;
-
-        case "csv":
-            // CSV header
-            const csvContent = [
-                ["Role", "Message"]
-                    .join(","),
-                ...currentChat.messages.map(msg => `"${msg.role}","${msg.text.replace(/"/g, '""')}"`)
-            ].join("\n");
-            blob = new Blob([csvContent], { type: "text/csv" });
-            break;
-
-        case "doc":
-            // Simple DOC using HTML content
-            const docContent = `
-                <html><body>
-                ${currentChat.messages.map(msg => `<p><strong>${msg.role.toUpperCase()}:</strong> ${msg.text}</p>`).join('')}
-                </body></html>`;
-            blob = new Blob([docContent], { type: "application/msword" });
-            break;
-
-        case "pdf":
-            // Use jsPDF (you need to include jsPDF library in HTML)
-            const docPDF = new jsPDF();
-            let y = 10;
-            currentChat.messages.forEach(msg => {
-                const lines = docPDF.splitTextToSize(`[${msg.role.toUpperCase()}] ${msg.text}`, 180);
-                docPDF.text(lines, 10, y);
-                y += lines.length * 10;
-                if (y > 280) {
-                    docPDF.addPage();
-                    y = 10;
-                }
-            });
-            docPDF.save(filename);
-            return; // jsPDF handles saving
-    }
-
-    // For JSON, TXT, CSV, DOC
-    if (blob) {
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = filename;
-        a.click();
-        URL.revokeObjectURL(url);
-    }
-}
-
-// Attach event listener
-document.getElementById("export-chat").addEventListener("click", exportCurrentChat);
 
 /* ===============================
    HELPER FUNCTIONS
@@ -376,6 +303,7 @@ function getSuggestionButtonsHTML() {
 }
 
 window.scrollChat = (direction) => {
+    if (!chatMessages) return;
     const scrollAmount = direction === 'up' ? -200 : 200;
     chatMessages.scrollBy({ top: scrollAmount, behavior: 'smooth' });
 };
@@ -467,9 +395,11 @@ window.downloadText = (button) => {
    CHAT UI RENDERING
    =============================== */
 function renderMessages() {
+    if (!chatMessages) return;
+    
     // Clear all messages except typing indicator
     Array.from(chatMessages.children)
-        .filter(el => !el.classList.contains('typing-indicator'))
+        .filter(el => !el.classList.contains('typing-indicator') && !el.classList.contains('scroll-nav'))
         .forEach(m => m.remove());
 
     // Render messages from active chat
@@ -481,11 +411,15 @@ function renderMessages() {
     
     // Scroll to bottom
     setTimeout(() => {
-        chatMessages.scrollTop = chatMessages.scrollHeight;
+        if (chatMessages) {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
     }, 100);
 }
 
 function addMessage(text, isUser, save = true, isWelcome = false) {
+    if (!chatMessages) return;
+    
     const msg = document.createElement('div');
     msg.className = `message ${isUser ? 'user' : 'bot'}`;
 
@@ -499,11 +433,19 @@ function addMessage(text, isUser, save = true, isWelcome = false) {
     
     msg.innerHTML = contentHTML + getActionButtonsHTML(!isUser);
 
-    chatMessages.insertBefore(msg, typingIndicator);
+    // Insert before typing indicator
+    const typingIndicator = document.getElementById('typingIndicator');
+    if (typingIndicator) {
+        chatMessages.insertBefore(msg, typingIndicator);
+    } else {
+        chatMessages.appendChild(msg);
+    }
     
     // Scroll to bottom
     setTimeout(() => {
-        chatMessages.scrollTop = chatMessages.scrollHeight;
+        if (chatMessages) {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
     }, 10);
 
     if (save && chats[activeChatId]) {
@@ -524,54 +466,88 @@ function processMessage(msg) {
     if (!msg || !msg.trim()) return;
     
     addMessage(msg, true);
-    typingIndicator.style.display = 'block';
+    
+    if (typingIndicator) {
+        typingIndicator.style.display = 'block';
+    }
 
     setTimeout(() => {
-        typingIndicator.style.display = 'none';
+        if (typingIndicator) {
+            typingIndicator.style.display = 'none';
+        }
         const botResponse = findBestMatch(msg) || defaultResponse();
         addMessage(botResponse, false);
     }, 800);
 }
 
 window.sendMessage = () => {
+    console.log('sendMessage called');
+    if (!userInput) {
+        console.error('userInput element not found');
+        return;
+    }
     const msg = userInput.value.trim();
+    console.log('Message:', msg);
     if (!msg) return;
-
     userInput.value = '';
     processMessage(msg);
 }
 
 window.sendSuggestion = (text) => {
+    if (!userInput) return;
     userInput.value = text;
     sendMessage();
 }
 
-
-/* ===============================
-   EVENT LISTENERS
-   =============================== */
-if (userInput) {
-    userInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            sendMessage();
-        }
-    });
-}
-
-if (newTabBtn) {
-    newTabBtn.onclick = createNewChat;
-}
-
-if (deleteTabBtn) {
-    deleteTabBtn.onclick = deleteCurrentChat;
-}
-
-
 /* ===============================
    INITIALIZATION
    =============================== */
-window.addEventListener('load', async () => {
-    // 1. Load theme
+function initializeApp() {
+    // Get DOM elements
+    chatMessages = document.getElementById('chatMessages');
+    userInput = document.getElementById('userInput');
+    typingIndicator = document.getElementById('typingIndicator');
+    themeToggle = document.getElementById('themeToggle');
+    tabsContainer = document.getElementById('tabsContainer');
+    newTabBtn = document.getElementById('newTabBtn');
+    deleteTabBtn = document.getElementById('deleteTabBtn');
+    sendBtn = document.getElementById('sendBtn');
+
+    console.log('DOM Elements initialized:', {
+        chatMessages: !!chatMessages,
+        userInput: !!userInput,
+        sendBtn: !!sendBtn
+    });
+
+    // Setup event listeners
+    if (userInput) {
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+    }
+
+    if (sendBtn) {
+        sendBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log('Send button clicked');
+            sendMessage();
+        });
+    }
+
+    if (newTabBtn) {
+        newTabBtn.onclick = createNewChat;
+    }
+
+    if (deleteTabBtn) {
+        deleteTabBtn.onclick = deleteCurrentChat;
+    }
+
+    setupRenameButton();
+
+    // Load theme
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
         document.body.classList.add('dark');
@@ -580,13 +556,13 @@ window.addEventListener('load', async () => {
         if (themeToggle) themeToggle.textContent = '🌙';
     }
 
-    // 2. Load knowledge base
-    await loadKnowledgeBase();
+    // Load knowledge base
+    loadKnowledgeBase();
 
-    // 3. Load chats from storage
+    // Load chats from storage
     loadFromStorage();
 
-    // 4. Initialize chat system
+    // Initialize chat system
     if (Object.keys(chats).length === 0 || !activeChatId || !chats[activeChatId]) {
         createNewChat();
     } else {
@@ -594,11 +570,21 @@ window.addEventListener('load', async () => {
         renderMessages();
     }
     
-    // 5. Focus input
+    // Focus input
     if (userInput) userInput.focus();
-});
+}
 
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+    initializeApp();
+}
+
+// Setup theme toggle tooltip on load
 window.addEventListener('load', () => {
     const isDark = document.body.classList.contains('dark');
-    themeToggle.setAttribute('data-tooltip', isDark ? 'Toggle light mode' : 'Toggle dark mode');
-    });
+    if (themeToggle) {
+        themeToggle.setAttribute('data-tooltip', isDark ? 'Toggle light mode' : 'Toggle dark mode');
+    }
+});

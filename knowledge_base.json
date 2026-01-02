@@ -2281,6 +2281,98 @@
       "category": "ICAP",
       "source": "ICAP_data_privacy",
       "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb251",
+      "question": "what do you know about ICAP",
+      "answer": "ICAP is an internal online portal used by Twin Health teams in India to manage the complete lifecycle of members—from enrollment and onboarding to treatment, coaching, and ongoing monitoring.",
+      "tags": ["icap", "internal portal", "twin health", "members management"],
+      "category": "ICAP",
+      "source": "twin_health_icap",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb252",
+      "question": "Who will guide my metabolic health?",
+      "answer": "Our health coach team will guide on your metabolic health, like nutrition, sleep, exercise and lifestyle through ICAP platform where every member has a dashboard with live tracking and suggestions given by our Digital Twin.",
+      "tags": ["metabolic health", "coaching", "health coach", "digital twin", "icap"],
+      "category": "ICAP",
+      "source": "twin_health_icap",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb253",
+      "question": "Hi",
+      "answer": "Hello! How can I help you now?",
+      "tags": ["greeting", "hello", "hi", "salutation"],
+      "category": "Greetings",
+      "source": "chatbot_standard",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb254",
+      "question": "What is Twin Health's approach to diabetes management?",
+      "answer": "Twin Health uses a metabolic approach to diabetes management, focusing on lifestyle changes, nutrition, and personalized care plans to help reverse Type 2 Diabetes.",
+      "tags": ["diabetes management", "twin health", "metabolic approach", "type 2 diabetes"],
+      "category": "Medical Guidance",
+      "source": "twin_health_overview",
+      "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb255",
+      "question": "Can ICAP integrate with wearable health devices?",
+      "answer": "Yes. ICAP supports integration with various wearable health devices to automatically sync member health data for comprehensive monitoring.",
+      "tags": ["icap", "wearable devices", "integration", "health data"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb256",
+      "question": "How does ICAP support remote coaching?",
+      "answer": "ICAP enables remote coaching through secure messaging, video calls, and real-time data sharing between members and their health coaches.",
+      "tags": ["icap", "remote coaching", "messaging", "video calls"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb257",
+      "question": "Does ICAP track medication adherence?",
+      "answer": "Yes. ICAP allows members to log medication intake, and coaches can monitor adherence and provide reminders as needed.",
+      "tags": ["icap", "medication", "adherence", "tracking"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+    "id": "kb258",
+    "question": "How can I treat my metabolic health?",
+    "answer": "Twin Health offers a comprehensive metabolic health program that includes personalized nutrition plans, lifestyle coaching, and continuous monitoring to help manage and improve your metabolic health.",
+    "tags": ["metabolic health", "treatment", "twin health", "program"],
+    "category": "Medical Guidance",
+    "source": "twin_health_metabolic_program",
+    "last_updated": "2026-01-02",
+    "source": "twin_health_metabolic_program",
+    "last_updated": "2026-01-02"
+    },
+    {
+      "id": "kb259",
+      "question": "Can ICAP monitor mental health aspects of members?",
+      "answer": "Yes. ICAP includes features to track mental health indicators, mood logs, and stress levels, allowing coaches to provide holistic care.",
+      "tags": ["icap", "mental health", "monitoring", "members"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
+    },
+    {
+      "id": "kb260",
+      "question": "How does ICAP handle emergency situations for members?",
+      "answer": "ICAP has protocols in place to identify and respond to emergency situations, including alerts to coaches and medical teams for immediate intervention.",
+      "tags": ["icap", "emergency", "protocols", "members"],
+      "category": "ICAP",
+      "source": "ICAP_info",
+      "last_updated": "2025-12-31"
     }
   ],
   "usage_notes": "Match user queries using question text and tags. Prefer Twin Health diabetes-related intent. Provide answers with source and last_updated metadata. Avoid giving medical advice beyond program description.",
